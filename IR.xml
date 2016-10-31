@@ -648,7 +648,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0015">
 <rem:name>
-Descripción del enterno del hardware actual</rem:name>
+Descripción del entorno del hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -662,6 +662,23 @@ Descripción del enterno del hardware actual</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.3.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0011">
+<rem:name>
+Descripción del entorno del hardware actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>31</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El entorno de hardware actual principalmente se fundamenta en ordenadores de oficina, que son usados principalmente por los administrativos de la central.<br/>También se incluye en el hardware los móviles que tienen tanto los técnicos cómo los comerciales, que sirven para recibir llamadas, notificaciones y realizar llamadas respecto al estado del proceso de negocio.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0016">
@@ -680,6 +697,23 @@ Descripción del entorno del software actual</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.3.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0012">
+<rem:name>
+Descripción del entorno del software actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>31</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El software actual principalmente se fundamenta en hojas de cálculos donde en ellas se escriben a mano todas las operaciones implicadas en el proceso de negocio. En estas mismas hojas de cálculo se tienen listados a los actores del sistema para tener un control sobre las personas actuales que tienen implicación en el sistema. Los pagos son introducidos a mano para con ello poder hacer las cuentas necesarias para realizar los informes económicos necesarios para la Agencia Tributaria Nacional.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -757,8 +791,8 @@ Ninguno</rem:comments>
 <rem:day>10</rem:day>
 </rem:date>
 <rem:time>
-<rem:hour>18</rem:hour>
-<rem:minute>18</rem:minute>
+<rem:hour>12</rem:hour>
+<rem:minute>30</rem:minute>
 </rem:time>
 <rem:place>Espartinas</rem:place>
 <rem:results>Primera toma de contacto entre el cliente y los desarolladores. En la reunión nos explicó como funciona el proceso de negocio actual.</rem:results>
