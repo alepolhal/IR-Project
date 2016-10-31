@@ -782,6 +782,23 @@ Documentación relevante</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>B </rem:number>
+<rem:paragraph
+ oid = "PRG-0010">
+<rem:name>
+ERP</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>31</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>- https://es.wikipedia.org/wiki/Sistema_de_planificaci%C3%B3n_de_recursos_empresariales</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0021">
@@ -800,6 +817,23 @@ Glosario de acrónimos y abreviaturas</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>C </rem:number>
+<rem:paragraph
+ oid = "PRG-0009">
+<rem:name>
+ERP</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>31</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>- ERP: Enterprise Resource Planning</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0022">
