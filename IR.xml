@@ -736,6 +736,34 @@ Actas de reuniones</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>A </rem:number>
+<rem:meeting
+ oid = "MET-0001">
+<rem:name>
+Explicación del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>18</rem:hour>
+<rem:minute>18</rem:minute>
+</rem:time>
+<rem:place>Espartinas</rem:place>
+<rem:results>Primera toma de contacto entre el cliente y los desarolladores. En la reunión nos explicó como funciona el proceso de negocio actual.</rem:results>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
+</rem:meeting>
 </rem:section>
 <rem:section
  oid = "SEC-0020">
