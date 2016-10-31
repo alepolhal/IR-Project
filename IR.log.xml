@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>U</rem:type>
+<rem:type>C</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>31</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2016/10/28] -> [1.0 2016/10/27]]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -17,6 +26,42 @@
 <rem:day>27</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -33,69 +78,6 @@
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -118,15 +100,6 @@
 <rem:description><![CDATA[Eliminado el objeto [STK-0001] dd con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2016</rem:year>
@@ -145,245 +118,13 @@
 <rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2016/10/27] -> [1.0 2016/10/28]]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>S</rem:type>
+<rem:type>U</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación actual.
-
-1. Es un trato más directo y cercano entre comercial-cliente.
-2. ] -> [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación actual.
-
-1. Es un trato más directo y cercano entre comercial-cliente.
-2. Se evitan problemas relaciones con la tecnología, como fallos en el sistema ajenos al comercial.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [1. Es un trato más directo y cercano entre comercial-cliente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0006</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0007</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0006</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación presente en la actualidad.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.
-5. El cliente, para hacer uso de la garantía, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la central.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación en la actualidad.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.
-5. El cliente, para hacer uso de la garantía, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la central.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación presente en la actualidad.
-
-1. Es un trato más directo y cercano entre comercial-cliente.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación en la actualidad.
-
-1. Es un trato más directo y cercano entre comercial-cliente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0006</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación presente en la actualidad.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación presente en la actualidad.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.
-5. El cliente, para hacer uso de la garantía, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la central.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0008</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [1. Es un trato más directo y cercano entre comercial-cliente.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación presente en la actualidad.
-
-1. Es un trato más directo y cercano entre comercial-cliente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación en la actualidad.
-
-1. Es un trato más directo y cercano entre comercial-cliente.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación actual.
-
-1. Es un trato más directo y cercano entre comercial-cliente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación actual.
-
-1. Es un trato más directo y cercano entre comercial-cliente.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación actual.
-
-1. Es un trato más directo y cercano entre comercial-cliente.
-2. ]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0006</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación en la actualidad.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.
-5. El cliente, para hacer uso de la garantía, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la central.] -> [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación actual.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.
-5. El cliente, para hacer uso de la garantía, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la central.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0005</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0006</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación presente en la actualidad.
-
-1. El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.
-2. El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.
-3. No se dispone de una comunicación adecuada entre comercial y central para conecer el estado de la máquina una vez solicitada.
-4. No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la central.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2016/10/28] -> [1.0 2016/10/27]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -397,78 +138,6 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Comercio de Máquinas]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [OBJ-0009]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [OBJ-0001] Desarrollar una ERP con 0 hijos y 10 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
@@ -486,52 +155,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada organización desarrolladora [ORG-0001] Comercio de Máquinas]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0001] Comercio de Máquinas]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
@@ -554,10 +178,55 @@
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
 </rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0001] Comercio de Máquinas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminada organización desarrolladora [ORG-0001] Comercio de Máquinas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Comercio de Máquinas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
 <rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Alejandro Polvillo y Javier Santos]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
@@ -575,17 +244,53 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
-<rem:day>28</rem:day>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0009]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0001] Desarrollar una ERP con 0 hijos y 10 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
@@ -630,7 +335,16 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>27</rem:day>
@@ -642,7 +356,7 @@
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
-<rem:day>28</rem:day>
+<rem:day>27</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -651,72 +365,9 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
-<rem:day>28</rem:day>
+<rem:day>27</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([ORG-0001] Comercio de Máquinas)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([STK-0002] Alejandro Polvillo)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsAppendix] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] Javier Santos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([ORG-0002] Alejandro Polvillo y Javier Santos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -730,6 +381,195 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2016</rem:year>
 <rem:month>10</rem:month>
 <rem:day>28</rem:day>
