@@ -71,7 +71,24 @@ Ninguno</rem:comments>
 <rem:text></rem:text>
 </rem:glossaryItem>
 <rem:section
- oid = "SEC-0022">
+ oid = "SEC-0049">
+<rem:name>
+Participantes y Organizaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:section
+ oid = "SEC-0050">
 <rem:name>
 Participantes</rem:name>
 <rem:version>
@@ -79,14 +96,14 @@ Participantes</rem:name>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>28</rem:day>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>1 </rem:number>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
 <rem:stakeholder
  oid = "STK-0001">
 <rem:name>
@@ -147,7 +164,7 @@ Ninguno</rem:comments>
 </rem:stakeholder>
 </rem:section>
 <rem:section
- oid = "SEC-0023">
+ oid = "SEC-0051">
 <rem:name>
 Organizaciones</rem:name>
 <rem:version>
@@ -156,13 +173,13 @@ Organizaciones</rem:name>
 <rem:date>
 <rem:year>2016</rem:year>
 <rem:month>11</rem:month>
-<rem:day>15</rem:day>
+<rem:day>22</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>2 </rem:number>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
 <rem:organization
  oid = "ORG-0002">
 <rem:name>
@@ -203,6 +220,7 @@ Ninguno</rem:comments>
 <rem:fax></rem:fax>
 </rem:organization>
 </rem:section>
+</rem:section>
 <rem:section
  oid = "SEC-0001">
 <rem:name>
@@ -219,7 +237,7 @@ Introducción</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>3 </rem:number>
+<rem:number>2 </rem:number>
 <rem:paragraph
  oid = "PRG-0017">
 <rem:name>
@@ -235,7 +253,7 @@ Introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando asi la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene niguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.<br/><br/>El problema con el nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantias, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursospara poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
+<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando asi la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene niguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.</rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0002">
@@ -253,7 +271,7 @@ Alcance</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>3.1 </rem:number>
+<rem:number>2.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0016">
 <rem:name>
@@ -288,7 +306,7 @@ Objetivos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>3.2 </rem:number>
+<rem:number>2.2 </rem:number>
 <rem:paragraph
  oid = "PRG-0015">
 <rem:name>
@@ -306,276 +324,6 @@ Objetivos</rem:name>
 Ninguno</rem:comments>
 <rem:text>El proyecto se centrará en la creación de un sistema ERP. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asocaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del <rem:ref oid="GLO-0020">cliente</rem:ref> mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
 </rem:paragraph>
-<rem:objective
- oid = "OBJ-0002">
-<rem:name>
-Listar actores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-mostrar un listado de cada actor principal que intervenga en el sistema.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0003">
-<rem:name>
-Crear rutas efectivas de tiendas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-permitir minimizar el uso de gasolina e intentar maximizar beneficios.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0004">
-<rem:name>
-Crear asociaciones de comerciales-tiendas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-saber que día, y a que hora, qué <rem:ref oid="GLO-0019">comercial</rem:ref> estaba visitando qué <rem:ref oid="GLO-0018">tienda</rem:ref>.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0005">
-<rem:name>
-Crear asociaciones de técnicos-tiendas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-saber qué técnicos instalaron la máquina en cada establecimiento con el fin de saber qué tecnicos enviar en el caso de que el <rem:ref oid="GLO-0020">cliente</rem:ref> ejerza su opción de <rem:ref oid="GLO-0028">garantía</rem:ref>.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0006">
-<rem:name>
-Crear asociaciones de productos-tiendas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-permitir realizar estadísticas por zonas y comarcas con el fin de obtener qué máquinas son las más vendidas por zonas.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0007">
-<rem:name>
-Gestionar pagos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-gestionar los pagos pendientes y realizados por los clientes y gestionar las comisiones aplicadas a cada una de ellas.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0008">
-<rem:name>
-Gestionar garantías e incidencias</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-habilitar un sistema para gestionar la <rem:ref oid="GLO-0028">garantía</rem:ref> de los clientes y registrar incidencias relacionadas con el producto.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0010">
-<rem:name>
-Gestionar ficha de clientes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-almacenar los clientes y registrar una ficha con sus datos, incluyendo aquellos relacionados con cada venta.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0011">
-<rem:name>
-Gestionar estadísticas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-gestionar el historial de ventas por <rem:ref oid="GLO-0019">comercial</rem:ref> y mostrar datos estadísticos.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0012">
-<rem:name>
-Gestionar productos y stock</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-listar los productos con los que cuenta el <rem:ref oid="GLO-0019">comercial</rem:ref> para conocer en cada momento el stock o el tiempo de reestablecimiento en caso de estar agotado.</rem:description>
-</rem:objective>
 </rem:section>
 </rem:section>
 <rem:section
@@ -594,7 +342,7 @@ Información sobre el dominio del problema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>4 </rem:number>
+<rem:number>3 </rem:number>
 <rem:section
  oid = "SEC-0005">
 <rem:name>
@@ -611,7 +359,7 @@ Introducción al dominio del problema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>4.1 </rem:number>
+<rem:number>3.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0014">
 <rem:name>
@@ -628,7 +376,7 @@ Introducción al dominio del problema</rem:name>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando asi la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene niguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.<br/><br/>El problema con el nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantias, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursos para poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
+<rem:text>La empresa a la que vamos a realizar el sistema de información es una empresa encargada de la fabricación, distribución y soporte de máquinas relacionadas con el ocio y recarga de móviles. <br/><br/>El problema con el nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantias, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursos para poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -647,7 +395,7 @@ Glosario de términos del dominio del problema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>4.2 </rem:number>
+<rem:number>3.2 </rem:number>
 <rem:glossaryItem
  oid = "GLO-0023">
 <rem:name>
@@ -751,7 +499,7 @@ Descripción de la situación actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>5 </rem:number>
+<rem:number>4 </rem:number>
 <rem:section
  oid = "SEC-0008">
 <rem:name>
@@ -768,7 +516,7 @@ Pros y contras de la situación actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>5.1 </rem:number>
+<rem:number>4.1 </rem:number>
 <rem:section
  oid = "SEC-0009">
 <rem:name>
@@ -785,7 +533,7 @@ Fortalezas de la situación actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>5.1.1 </rem:number>
+<rem:number>4.1.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0005">
 <rem:name>
@@ -821,7 +569,7 @@ Debilidades de la situación actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>5.1.2 </rem:number>
+<rem:number>4.1.2 </rem:number>
 <rem:paragraph
  oid = "PRG-0006">
 <rem:name>
@@ -858,7 +606,7 @@ Modelos de procesos de negocio actuales</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>5.2 </rem:number>
+<rem:number>4.2 </rem:number>
 <rem:section
  oid = "SEC-0012">
 <rem:name>
@@ -875,7 +623,7 @@ Descripción de actores de negocio actuales</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>5.2.1 </rem:number>
+<rem:number>4.2.1 </rem:number>
 <rem:glossaryItem
  oid = "GLO-0018">
 <rem:name>
@@ -978,7 +726,7 @@ Descripción de procesos de negocio actuales</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>5.2.2 </rem:number>
+<rem:number>4.2.2 </rem:number>
 <rem:graphicFile
  oid = "GRF-0001">
 <rem:name>
@@ -1035,7 +783,7 @@ Entorno tecnológico actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>5.3 </rem:number>
+<rem:number>4.3 </rem:number>
 <rem:section
  oid = "SEC-0015">
 <rem:name>
@@ -1052,7 +800,7 @@ Descripción del entorno del hardware actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>5.3.1 </rem:number>
+<rem:number>4.3.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0011">
 <rem:name>
@@ -1068,7 +816,7 @@ Descripción del entorno del hardware actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El entorno de hardware actual principalmente se fundamenta en ordenadores de oficina, que son usados principalmente por los administrativos de la <rem:ref oid="GLO-0022">central</rem:ref>.<br/>También se incluye en el hardware los móviles que tienen tanto los técnicos cómo los comerciales, que sirven para recibir llamadas, notificaciones y realizar llamadas respecto al estado del proceso de negocio.</rem:text>
+<rem:text>El entorno de hardware actual principalmente se fundamenta en ordenadores de oficina, que son usados principalmente por los administrativos de la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>También se incluye en el hardware los móviles que tienen tanto los técnicos cómo los comerciales, que sirven para recibir llamadas, notificaciones y realizar llamadas respecto al estado del proceso de negocio.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1087,7 +835,7 @@ Descripción del entorno del software actual</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>5.3.2 </rem:number>
+<rem:number>4.3.2 </rem:number>
 <rem:paragraph
  oid = "PRG-0012">
 <rem:name>
@@ -1103,7 +851,7 @@ Descripción del entorno del software actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El software actual principalmente se fundamenta en hojas de cálculos donde en ellas se escriben a mano todas las operaciones implicadas en el proceso de negocio. En estas mismas hojas de cálculo se tienen listados a los actores del sistema para tener un control sobre las personas actuales que tienen implicación en el sistema. Los pagos son introducidos a mano para con ello poder hacer las cuentas necesarias para realizar los informes económicos necesarios para la Agencia Tributaria Nacional.</rem:text>
+<rem:text>El software actual principalmente se fundamenta en hojas de cálculos donde en ellas se escriben a mano todas las operaciones implicadas en el proceso de negocio. En estas mismas hojas de cálculo se tienen listados a los actores del sistema para tener un control sobre las personas actuales que tienen implicación en el sistema. Los pagos son introducidos a mano para con ello poder hacer las cuentas necesarias para realizar los informes económicos necesarios para la Agencia Tributaria Nacional.<br/><br/>Los informes a entregar a la Agencia Tributaria Nacional incluyen principalmente el Libro de inventarios y Cuentas Anuales. Se abrirá con el balance inicial detallado de la empresa. Trimestralmente, se transcribirán los balances de comprobación de sumas y saldos y anualmente el inventario de cierre del ejercicio y las cuentas anuales. El libro de Inventario y Cuentas anuales ha de tener un contenido mínimo: balance inicial, balance trimestral con sumas y saldos, inventario de cierre de ejercicio y cuentas anuales.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -1124,7 +872,7 @@ Necesidades de negocio</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>6 </rem:number>
+<rem:number>5 </rem:number>
 <rem:section
  oid = "SEC-0018">
 <rem:name>
@@ -1141,7 +889,7 @@ Objetivos de negocio</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>6.1 </rem:number>
+<rem:number>5.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0013">
 <rem:name>
@@ -1158,7 +906,7 @@ Objetivos de negocio</rem:name>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere tener un control de las máquinas que actualmente está vendiendo.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere que a parte de poder listar a cada actor del sistema se pueda mostrar más información, información como estadísticas de ventas/instalación. Para en un futuro tenerlo en cuenta en distintos aspectos.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere que el sistema sea capaz de minimizar el gasto de gasolina, para ello hay que asociar a comerciales una lista de tiendas a visitar.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere tener un control de los comerciales, por tiempo y <rem:ref oid="GLO-0018">tienda</rem:ref>, para asi llevar el control de cuando y quien visito cada <rem:ref oid="GLO-0018">tienda</rem:ref>.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere tener un control de los tecnicos, por tiempo y <rem:ref oid="GLO-0018">tienda</rem:ref>, para asi llevar el control de cuando y quien instaló cada máquina en cada <rem:ref oid="GLO-0018">tienda</rem:ref>.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere tener una ficha de cada <rem:ref oid="GLO-0020">cliente</rem:ref>, para en caso de incidencias futuras, tener datos de contacto para poder llamarle.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere tener gestionado los pagos de forma correcta en el sistema, lo que le facilite el tema de informes para la agencia tributaria y también para hacer informes económicos en cualquier momento.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref> quiere gestionar las garantias, y asociarlas a clientes y técnicos, con el fin de llevar un control de los incidentes pasados y de quien reparó esos incidentes.<br/><br/>Mediante la realización de los anteriores puntos, el <rem:ref oid="GLO-0020">cliente</rem:ref> obtendrá un sistema información el cual incrementerá la satisfacción del <rem:ref oid="GLO-0020">cliente</rem:ref>, aumentará el índice de ventas y la gestión de los recursos disponibles.</rem:text>
+<rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese <rem:ref oid="GLO-0020">cliente</rem:ref>? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentablidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1177,7 +925,7 @@ Modelos de procesos de negocio a implementar</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>6.2 </rem:number>
+<rem:number>5.2 </rem:number>
 <rem:section
  oid = "SEC-0025">
 <rem:name>
@@ -1194,7 +942,7 @@ Descripción de actores de negocio a implementar</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>6.2.1 </rem:number>
+<rem:number>5.2.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0026">
 <rem:name>
@@ -1229,7 +977,7 @@ Descripción de procesos de negocio a implementar</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>6.2.2 </rem:number>
+<rem:number>5.2.2 </rem:number>
 <rem:paragraph
  oid = "PRG-0025">
 <rem:name>
@@ -1266,7 +1014,7 @@ Descripción de los subsistemas del sistema a desarrollar</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>7 </rem:number>
+<rem:number>6 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0028">
@@ -1284,7 +1032,7 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>8 </rem:number>
+<rem:number>7 </rem:number>
 <rem:section
  oid = "SEC-0029">
 <rem:name>
@@ -1301,7 +1049,196 @@ Requisitos generales del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.1 </rem:number>
+<rem:number>7.1 </rem:number>
+<rem:objective
+ oid = "OBJ-0007">
+<rem:name>
+Gestionar pagos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+gestionar los pagos pendientes y realizados por los clientes y gestionar las comisiones aplicadas a cada una de ellas.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0008">
+<rem:name>
+Gestionar garantías e incidencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+habilitar un sistema para gestionar la <rem:ref oid="GLO-0028">garantía</rem:ref> de los clientes y registrar incidencias relacionadas con el producto.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0010">
+<rem:name>
+Gestionar ficha de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+almacenar los clientes y registrar una ficha con sus datos, incluyendo aquellos relacionados con cada venta.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0011">
+<rem:name>
+Generación de estadísticas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+gestionar el historial de ventas por <rem:ref oid="GLO-0019">comercial</rem:ref> y mostrar datos estadísticos.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0012">
+<rem:name>
+Gestionar productos y stock</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+listar los productos con los que cuenta el <rem:ref oid="GLO-0019">comercial</rem:ref> para conocer en cada momento el stock o el tiempo de reestablecimiento en caso de estar agotado.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0013">
+<rem:name>
+Gestionar empleados</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+mostrar un listado de los empleados y las operaciones relacionadas con ellos.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0014">
+<rem:name>
+Disminuir gasto de gasolina</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+permitir la disminución de gastos generados por los trayectos realizados por técnicos y comerciales.</rem:description>
+</rem:objective>
 </rem:section>
 <rem:section
  oid = "SEC-0030">
@@ -1319,7 +1256,7 @@ Casos de uso del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.2 </rem:number>
+<rem:number>7.2 </rem:number>
 <rem:section
  oid = "SEC-0031">
 <rem:name>
@@ -1336,7 +1273,7 @@ Diagramas de casos de uso del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.2.1 </rem:number>
+<rem:number>7.2.1 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0032">
@@ -1354,7 +1291,7 @@ Especificación de actores del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.2.2 </rem:number>
+<rem:number>7.2.2 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0033">
@@ -1372,7 +1309,88 @@ Especificación de casos de uso del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.2.3 </rem:number>
+<rem:number>7.2.3 </rem:number>
+<rem:objective
+ oid = "OBJ-0004">
+<rem:name>
+Crear asociaciones de comerciales-tiendas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+saber que día, y a que hora, qué <rem:ref oid="GLO-0019">comercial</rem:ref> estaba visitando qué <rem:ref oid="GLO-0018">tienda</rem:ref>.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0005">
+<rem:name>
+Crear asociaciones de técnicos-tiendas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+saber qué técnicos instalaron la máquina en cada establecimiento con el fin de saber qué tecnicos enviar en el caso de que el <rem:ref oid="GLO-0020">cliente</rem:ref> ejerza su opción de <rem:ref oid="GLO-0028">garantía</rem:ref>.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0006">
+<rem:name>
+Crear asociaciones de productos-tiendas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+permitir realizar estadísticas por zonas y comarcas con el fin de obtener qué máquinas son las más vendidas por zonas.</rem:description>
+</rem:objective>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1391,7 +1409,7 @@ Requisitos funcionales del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.3 </rem:number>
+<rem:number>7.3 </rem:number>
 <rem:section
  oid = "SEC-0035">
 <rem:name>
@@ -1408,7 +1426,417 @@ Requisitos de información del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.3.1 </rem:number>
+<rem:number>7.3.1 </rem:number>
+<rem:informationRequirement
+ oid = "IRQ-0001">
+<rem:name>
+Pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0002">
+<rem:name>
+<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0003">
+<rem:name>
+<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0004">
+<rem:name>
+Incidencia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0005">
+<rem:name>
+Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0006">
+<rem:name>
+<rem:ref oid="GLO-0018">Tienda</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0007">
+<rem:name>
+<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0008">
+<rem:name>
+<rem:ref oid="GLO-0023">Catálogo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0009">
+<rem:name>
+Almacén</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0010">
+<rem:name>
+Venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0036">
@@ -1426,7 +1854,130 @@ Requisitos de reglas de negocio del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.3.2 </rem:number>
+<rem:number>7.3.2 </rem:number>
+<rem:constraintRequirement
+ oid = "CRQ-0001">
+<rem:name>
+No instalación hasta el pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Los técnicos no podrán realizar la instalación de una máquina a una <rem:ref oid="GLO-0018">tienda</rem:ref> hasta que se reciba el pago correspondiente.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0002">
+<rem:name>
+No solucionar incidencias pasada la <rem:ref oid="GLO-0028">garantía</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Los técnicos no podrán solucionar una incidencia de una venta una vez cumplido el plazo de la <rem:ref oid="GLO-0028">garantía</rem:ref> de dicha venta.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0003">
+<rem:name>
+No borrar pagos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Los pagos no podrán ser borrados bajo ninguna circunstancia.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0004">
+<rem:name>
+No asignación <rem:ref oid="GLO-0021">técnico</rem:ref>-máquina sin stock</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+No se podrá asignar la instalación de una máquina a un <rem:ref oid="GLO-0021">técnico</rem:ref> hasta que el producto esté en stock.</rem:description>
+</rem:constraintRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0037">
@@ -1444,7 +1995,7 @@ Requisitos de conducta del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.3.3 </rem:number>
+<rem:number>7.3.3 </rem:number>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1463,7 +2014,7 @@ Requisitos no funcionales del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.4 </rem:number>
+<rem:number>7.4 </rem:number>
 <rem:section
  oid = "SEC-0039">
 <rem:name>
@@ -1480,7 +2031,38 @@ Requisitos de fiabilidad del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.1 </rem:number>
+<rem:number>7.4.1 </rem:number>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0001">
+<rem:name>
+Manejar excepciones del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Las excepciones que se produzcan por un mal uso del usuario del sistema, podrán ser tratadas de dos formas: ignoradas en caso de que no afecte al sistema, o tratadas mediante una llamada a un gestor de excepciones que informará al usuario de su error a través de la interfaz gráfica.</rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0040">
@@ -1498,7 +2080,7 @@ Requisitos de usabilidad del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.2 </rem:number>
+<rem:number>7.4.2 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0041">
@@ -1516,7 +2098,7 @@ Requisitos de mantenibilidad del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.3 </rem:number>
+<rem:number>7.4.3 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0042">
@@ -1534,7 +2116,7 @@ Requisitos de eficiencia del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.4 </rem:number>
+<rem:number>7.4.4 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0043">
@@ -1552,7 +2134,7 @@ Requisitos de portabilidad del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.5 </rem:number>
+<rem:number>7.4.5 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0044">
@@ -1570,12 +2152,12 @@ Requisitos de seguridad del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.6 </rem:number>
+<rem:number>7.4.6 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0045">
 <rem:name>
-Requisitos no funcionales del sistema</rem:name>
+Otros requisitos no funcionales del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1588,7 +2170,7 @@ Requisitos no funcionales del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>8.4.7 </rem:number>
+<rem:number>7.4.7 </rem:number>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1607,7 +2189,7 @@ Restricciones técnicas del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.5 </rem:number>
+<rem:number>7.5 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0047">
@@ -1625,7 +2207,7 @@ Requisitos de integración del sistema</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.6 </rem:number>
+<rem:number>7.6 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0048">
@@ -1643,7 +2225,7 @@ Información sobre trazabilidad</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>8.7 </rem:number>
+<rem:number>7.7 </rem:number>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1689,7 +2271,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Espartinas</rem:place>
 <rem:results>Primera toma de contacto entre el <rem:ref oid="GLO-0020">cliente</rem:ref> y los desarolladores.<br/><br/>Como primer punto de la mañana, el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
-	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
+	<rem:attenders stakeholders ="STK-0003 STK-0001 STK-0002 "/>
 </rem:meeting>
 </rem:section>
 <rem:section
@@ -1979,18 +2561,6 @@ Hour:minutes:seconds</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
@@ -2003,52 +2573,16 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -2057,22 +2591,58 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -2081,10 +2651,22 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
