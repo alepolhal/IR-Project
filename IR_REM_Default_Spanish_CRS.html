@@ -782,7 +782,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -857,7 +863,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -932,7 +944,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -1007,7 +1025,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -1082,7 +1106,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -1157,7 +1187,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -1232,7 +1268,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -1637,20 +1679,20 @@ la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y s
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-La <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a> está interesada en conseguir un nuevo <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> y dispone de comerciales.</td>
+Existen tiendas sin visitar a las que se le pueden asignar un <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a>.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="10">Secuencia normal</th>
+<th align="left" valign="top" rowspan="11">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0001" />
+<a name="STP-0040" />
 <td align="center" valign="top">1</td>
 <td>El actor<a href="#ACT-0005" title="Este actor representa "> Central (ACT-0005)
     </a>
 <em>
-solicita iniciar sesión en el sistema.</em>
+solicita asignar una <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a> particular a un <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> concreto.</em>
 </td>
 </tr>
 <tr>
@@ -1726,9 +1768,18 @@ asigna el conjunto de tiendas a visitar al <a href="#GLO-0019" title="Persona qu
 </td>
 </tr>
 <tr>
+<a name="STP-0041" />
+<td align="center" valign="top">10</td>
+<td>El
+     
+    sistema<em>
+registra el <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> a una <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a>.</em>
+</td>
+</tr>
+<tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-El sistema asigna la <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a> al <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> y procederá a visitarla para conseguir una venta.</td>
+El sistema ha registrado el <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> a una <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -1853,10 +1904,10 @@ la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y s
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> ha visitado una <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a> y ha conseguido una venta tras entregar el <a href="#GLO-0023" title="Listado de productos que se ofertan en formato papel o digital que el comercial entregará al cliente.">catálogo</a> de productos disponibles.</td>
+Existen tiendas a las que hay que asignarle ventas,</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="11">Secuencia normal</th>
+<th align="left" valign="top" rowspan="12">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -1866,7 +1917,7 @@ El <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tien
 <td>El actor<a href="#ACT-0005" title="Este actor representa "> Central (ACT-0005)
     </a>
 <em>
-solicita iniciar sesión en el sistema.</em>
+solicita asignar una venta con una máquina a una <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a> del sistema.</em>
 </td>
 </tr>
 <tr>
@@ -1951,9 +2002,18 @@ selecciona la máquina.</em>
 </td>
 </tr>
 <tr>
+<a name="STP-0042" />
+<td align="center" valign="top">11</td>
+<td>El
+     
+    sistema<em>
+registra la venta.</em>
+</td>
+</tr>
+<tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-El sistema registra la venta.</td>
+El sistema ha registrado la venta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2023,8 +2083,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0003</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Asignar pago a <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a>
-</th>
+Asignar pago a venta</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -2078,10 +2137,10 @@ la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y s
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-La venta se ha registrado correctamente y los datos se han recibido correctamente.</td>
+Existen ventas pendientes de asignarle un pago.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -2091,7 +2150,7 @@ La venta se ha registrado correctamente y los datos se han recibido correctament
 <td>El actor<a href="#ACT-0005" title="Este actor representa "> Central (ACT-0005)
     </a>
 <em>
-solicita iniciar sesión en el sistema.</em>
+solicita asignar un pago de una cuantía concreta a una venta del sistema.</em>
 </td>
 </tr>
 <tr>
@@ -2140,9 +2199,18 @@ rellena información del pago.</em>
 </td>
 </tr>
 <tr>
+<a name="STP-0043" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+registra el pago.</em>
+</td>
+</tr>
+<tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-El sistema registra el pago.</td>
+El sistema ha registrado el pago.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2266,10 +2334,10 @@ la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y s
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El pago se ha recibido correctamente y la <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a> está pendiente de la entrega del producto.</td>
+Existen ventas pendientes de asignarle un <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a>.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="9">Secuencia normal</th>
+<th align="left" valign="top" rowspan="10">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -2279,7 +2347,7 @@ El pago se ha recibido correctamente y la <a href="#GLO-0018" title="Lugar que v
 <td>El actor<a href="#ACT-0005" title="Este actor representa "> Central (ACT-0005)
     </a>
 <em>
-solicita iniciar sesión en el sistema.</em>
+solicita asignar un <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a> concreto para la instalación de la máquina asociada a una venta.</em>
 </td>
 </tr>
 <tr>
@@ -2346,9 +2414,18 @@ selecciona el <a href="#GLO-0021" title="Personal que se encargará de las instal
 </td>
 </tr>
 <tr>
+<a name="STP-0044" />
+<td align="center" valign="top">9</td>
+<td>El
+     
+    sistema<em>
+registra el <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a> a una venta.</em>
+</td>
+</tr>
+<tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-La <a href="#GLO-0018" title="Lugar que visitará el comercial, donde obtendrá los posibles clientes.">tienda</a> recibe el producto tras su instalación por parte del <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a>.</td>
+El sistema ha registrado el <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a> a una venta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2450,7 +2527,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -2561,7 +2644,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -2673,7 +2762,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -2784,7 +2879,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -2895,7 +2996,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3007,7 +3114,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3119,7 +3232,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3231,7 +3350,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3342,7 +3467,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3453,7 +3584,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3566,7 +3703,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3646,7 +3789,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3708,13 +3857,30 @@ No borrar pagos</th>
 <tr>
 <th align="left" valign="top">Autores</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0002">
+Alejandro Polvillo</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Javier Santos</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3793,7 +3959,13 @@ Javier Santos</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -3934,7 +4106,92 @@ Requisitos de eficiencia del sistema</h3><a name="SEC-0043" />
 <h3 align="left">7.4.5 
 Requisitos de portabilidad del sistema</h3><a name="SEC-0044" />
 <h3 align="left">7.4.6 
-Requisitos de seguridad del sistema</h3><a name="SEC-0045" />
+Requisitos de seguridad del sistema</h3><a name="NFR-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">NFR-0002</th>
+<th align="left" valign="top" width="100%">
+Inicio de sesión</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 29/11/2016 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0002">
+Alejandro Polvillo</a>
+<br />
+</li>
+<li>
+<a href="#STK-0001">
+Javier Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+Juan Polvillo Luque</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+requerir el inicio de sesión para realizar una acción.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0045" />
 <h3 align="left">7.4.7 
 Otros requisitos no funcionales del sistema</h3><a name="SEC-0046" />
 <h2 align="left">7.5 
