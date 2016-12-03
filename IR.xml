@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "l:\rem-1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>IR</rem:name>
@@ -1281,6 +1281,25 @@ Diagramas de casos de uso del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>7.2.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0002">
+<rem:name>
+Diagrama de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\images\Use Cases Diagram.png]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0032">
@@ -1316,7 +1335,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole><rem:tbd/></rem:actorRole>
+<rem:actorRole>una <rem:ref oid="GLO-0018">tienda</rem:ref> del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0002">
@@ -1335,7 +1354,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole><rem:tbd/></rem:actorRole>
+<rem:actorRole>un <rem:ref oid="GLO-0019">comercial</rem:ref> del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0003">
@@ -1354,7 +1373,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole><rem:tbd/></rem:actorRole>
+<rem:actorRole>un <rem:ref oid="GLO-0020">cliente</rem:ref> del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
@@ -1373,7 +1392,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole><rem:tbd/></rem:actorRole>
+<rem:actorRole>un <rem:ref oid="GLO-0021">técnico</rem:ref> del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0005">
@@ -1392,7 +1411,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole><rem:tbd/></rem:actorRole>
+<rem:actorRole>la <rem:ref oid="GLO-0022">central</rem:ref> del sistema.</rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
@@ -3148,7 +3167,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Espartinas</rem:place>
 <rem:results>Primera toma de contacto entre el <rem:ref oid="GLO-0020">cliente</rem:ref> y los desarolladores.<br/><br/>Como primer punto de la mañana, el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
-	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
+	<rem:attenders stakeholders ="STK-0003 STK-0001 STK-0002 "/>
 </rem:meeting>
 </rem:section>
 <rem:section
@@ -3573,6 +3592,23 @@ Esquemas de la interfaz de usuario del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0033">
+<rem:name>
+Esquemas de la interfaz de usuario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Adjuntado en el archivo &quot;Balsamiq.zip&quot; de la entrega.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0065">
@@ -3591,6 +3627,159 @@ Descripción de la interfaz de usuario del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.3 </rem:number>
+<rem:paragraph
+ oid = "PRG-0034">
+<rem:name>
+Pantalla de login</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Pantalla de login: la <rem:ref oid="GLO-0022">central</rem:ref> deberá introducir su identificador (correo electrónico) y contraseña asociada a su cuenta. Posteriormente pulsará sobre &quot;Iniciar sesión&quot; para la comprobación de los datos incluidos. En caso de ser correctos, accederá al panel asociado a su cuenta. En caso contrario, volverá al formulario donde se especificará el error correspondiente.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0035">
+<rem:name>
+Zonas a visitar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Zonas a visitar: se mostrará un mapa ampliable y deslizable. Al desplazarse sobre el mapa aparecerá una tabla con las distintas zonas disponibles para seleccionar y la <rem:ref oid="GLO-0022">central</rem:ref> podrá elegir una de ellas.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0036">
+<rem:name>
+Tiendas en la zona</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Tiendas en la zona: se mostrará una tabla con las distintas tiendas disponibles en la zona especificada. A la derecha de cada elemento se mostrará una casilla de selección.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0037">
+<rem:name>
+Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref>: se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0038">
+<rem:name>
+Listado de tiendas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Listado de tiendas: se mostrará una tabla con las tiendas disponibles. A la derecha de cada elemento se mostrará un botón para asignarle una nueva venta.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0039">
+<rem:name>
+Nueva venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Nueva venta: se mostrará un formulario con información a rellenar sobre la venta. En ella se especificará la fecha de venta, la persona de contacto y su teléfono de contacto. Además se mostrará otro campo de selección donde se indicará la máquina asociada con la venta.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0040">
+<rem:name>
+Listado de ventas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Listado de ventas: se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o <rem:ref oid="GLO-0021">técnico</rem:ref>, dependiendo de la acción que quiera realizar la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0041">
+<rem:name>
+Nuevo pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Nuevo pago: se mostrará un formulario con información a rellenar sobre el pago. En ella se especificará la fecha límite del pago y la cantidad a abonar.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0042">
+<rem:name>
+Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref>: se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 </rem:d_requirementsSpecification>
@@ -3626,9 +3815,9 @@ Ninguno
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0001">
+ oid = "PVT-0002">
 <rem:name>
-Real</rem:name>
+Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3641,15 +3830,15 @@ Real</rem:name>
 <rem:comments>
 Predefined OCL type</rem:comments>
 <rem:description>
-Real numbers</rem:description>
+Integer numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0005">
+ oid = "PVT-0003">
 <rem:name>
-Date</rem:name>
+Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3660,9 +3849,9 @@ Date</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
+Predefined OCL type</rem:comments>
 <rem:description>
-Dates</rem:description>
+Natural numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -3689,9 +3878,30 @@ Hour:minutes:seconds</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0002">
+ oid = "PVT-0005">
 <rem:name>
-Integer</rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3704,7 +3914,7 @@ Integer</rem:name>
 <rem:comments>
 Predefined OCL type</rem:comments>
 <rem:description>
-Integer numbers</rem:description>
+Real numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -3730,40 +3940,10 @@ Alphanumeric strings</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
@@ -3771,29 +3951,38 @@ Natural numbers</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
 </rem:defectStatusValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
@@ -3813,28 +4002,10 @@ Natural numbers</rem:description>
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
@@ -3849,10 +4020,58 @@ Natural numbers</rem:description>
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
 <rem:name>No rastreabilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -3867,126 +4086,93 @@ Natural numbers</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
-</rem:stabilityValue>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0001">
+<rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
-</rem:statusValue>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0001">
+<rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
-</rem:terminationValue>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
@@ -3995,6 +4181,9 @@ Natural numbers</rem:description>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
