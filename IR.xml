@@ -157,7 +157,7 @@ Juan Polvillo Luque</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:stakeholderRole><rem:ref oid="GLO-0019">Comercial</rem:ref></rem:stakeholderRole>
+<rem:stakeholderRole>Comercial</rem:stakeholderRole>
 <rem:isCustomer/>
 <rem:isUser/>
 <rem:worksFor organization = "ORG-0001"/>
@@ -253,7 +253,7 @@ Introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando asi la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene niguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.</rem:text>
+<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando así la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene ninguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.</rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0002">
@@ -287,7 +287,7 @@ Alcance</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El proyecto pretende solventar las necesidades de nuestro <rem:ref oid="GLO-0020">cliente</rem:ref>, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <rem:ref oid="GLO-0024">sistema informático</rem:ref> todo el proceso de venta, gestión y comunicación con los distintos actores participantes en el sistema.</rem:text>
+<rem:text>El proyecto pretende solventar las necesidades de nuestro cliente, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <rem:ref oid="GLO-0024">sistema informático</rem:ref> todo el proceso de venta, gestión y comunicación con los distintos actores participantes en el sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -322,7 +322,7 @@ Objetivos</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El proyecto se centrará en la creación de un sistema ERP. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asocaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del <rem:ref oid="GLO-0020">cliente</rem:ref> mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
+<rem:text>El proyecto se centrará en la creación de un sistema ERP. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asociaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del cliente mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -376,7 +376,7 @@ Introducción al dominio del problema</rem:name>
 <rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa a la que vamos a realizar el sistema de información es una empresa encargada de la fabricación, distribución y soporte de máquinas relacionadas con el ocio y recarga de móviles. <br/><br/>El problema con el nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantias, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursos para poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
+<rem:text>La empresa a la que vamos a realizar el sistema de información es una empresa encargada de la fabricación, distribución y soporte de máquinas relacionadas con el ocio y recarga de móviles. <br/><br/>El problema con el que nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantías, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursos para poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -411,7 +411,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Listado de productos que se ofertan en formato papel o digital que el <rem:ref oid="GLO-0019">comercial</rem:ref> entregará al <rem:ref oid="GLO-0020">cliente</rem:ref>.</rem:text>
+<rem:text>Listado de productos que se ofertan en formato papel o digital que el comercial entregará al cliente.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0024">
@@ -428,7 +428,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Sistema que se desarrollará para el <rem:ref oid="GLO-0020">cliente</rem:ref> y permitirá almacenar y procesar información.</rem:text>
+<rem:text>Sistema que se desarrollará para el cliente y permitirá almacenar y procesar información.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0027">
@@ -445,7 +445,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Recorrido que tendrá que realizar el <rem:ref oid="GLO-0019">comercial</rem:ref> para visitar las distintas tiendas.</rem:text>
+<rem:text>Recorrido que tendrá que realizar el comercial para visitar las distintas tiendas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0028">
@@ -462,7 +462,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Compromiso del <rem:ref oid="GLO-0019">comercial</rem:ref> para solucionar gratuitamente los problemas del producto en un periodo de tiempo determinado.</rem:text>
+<rem:text>Compromiso del comercial para solucionar gratuitamente los problemas del producto en un periodo de tiempo determinado.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0029">
@@ -550,7 +550,7 @@ Ninguno</rem:comments>
 <rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos positios de la situación actual.<br/><br/>- Es un trato más directo y cercano entre <rem:ref oid="GLO-0019">comercial</rem:ref>-<rem:ref oid="GLO-0020">cliente</rem:ref>.<br/><br/>- Se evitan problemas relaciones con la tecnología, como fallos en el sistema ajenos al <rem:ref oid="GLO-0019">comercial</rem:ref>.</rem:text>
+<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos positivos de la situación actual.<br/><br/>- Es un trato más directo y cercano entre comercial-cliente.<br/><br/>- Se evitan problemas relaciones con la tecnología, como fallos en el sistema ajenos al comercial.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -586,7 +586,7 @@ Ninguno</rem:comments>
 <rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación actual.<br/><br/>- El <rem:ref oid="GLO-0019">comercial</rem:ref> necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.<br/><br/>- El <rem:ref oid="GLO-0019">comercial</rem:ref>, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.<br/><br/>- No se dispone de una comunicación adecuada entre <rem:ref oid="GLO-0019">comercial</rem:ref> y <rem:ref oid="GLO-0022">central</rem:ref> para conecer el estado de la máquina una vez solicitada.<br/><br/>- No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref>, para hacer uso de la <rem:ref oid="GLO-0028">garantía</rem:ref>, necesita comunicárselo directamente al <rem:ref oid="GLO-0019">comercial</rem:ref> mediante teléfono, quien actuaría de intermediario con la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
+<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación actual.<br/><br/>- El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.<br/><br/>- El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.<br/><br/>- No se dispone de una comunicación adecuada entre comercial y <rem:ref oid="GLO-0022">central</rem:ref> para conocer el estado de la máquina una vez solicitada.<br/><br/>- No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>- El cliente, para hacer uso de la <rem:ref oid="GLO-0028">garantía</rem:ref>, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -627,7 +627,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0018">
 <rem:name>
-<rem:ref oid="GLO-0018">Tienda</rem:ref></rem:name>
+Tienda</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -639,12 +639,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Lugar que visitará el <rem:ref oid="GLO-0019">comercial</rem:ref>, donde obtendrá los posibles clientes.</rem:text>
+<rem:text>Lugar que visitará el comercial, donde obtendrá los posibles clientes.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0019">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -661,7 +661,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0020">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -673,12 +673,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Personal de la <rem:ref oid="GLO-0018">tienda</rem:ref> el cuál recibirá el producto por el <rem:ref oid="GLO-0019">comercial</rem:ref>.</rem:text>
+<rem:text>Personal de la tienda el cuál recibirá el producto por el comercial.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0021">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -707,7 +707,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al <rem:ref oid="GLO-0020">cliente</rem:ref>.</rem:text>
+<rem:text>Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section
@@ -763,7 +763,7 @@ Ninguno</rem:comments>
 <rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En primer lugar, el <rem:ref oid="GLO-0019">comercial</rem:ref> será el encargado de visitar las tiendas que crea oportunas. Una vez allí entregará los catálogos a sus correspondientes responsables e intentará convencerlos para formalizar una venta. En caso negativo, el <rem:ref oid="GLO-0019">comercial</rem:ref> volverá a visitar una nueva <rem:ref oid="GLO-0018">tienda</rem:ref> y repetirá el mismo proceso.<br/><br/>Una vez se ha formalizado una venta, el <rem:ref oid="GLO-0019">comercial</rem:ref> pedirá los datos al <rem:ref oid="GLO-0020">cliente</rem:ref> para comenzar la tramitación de la máquina, el <rem:ref oid="GLO-0020">cliente</rem:ref> preparará los datos y lo recibirá el <rem:ref oid="GLO-0019">comercial</rem:ref>. Tras comprobarlos se procederá a la solitud de pagos, que tendrá que abonar el <rem:ref oid="GLO-0020">cliente</rem:ref> y recibirá la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>Cuando la <rem:ref oid="GLO-0022">central</rem:ref> recibe el pago solicita la instalación de la máquina. Para ello comprueba la disponibilidad en el almacén y, en el caso de disponer de stock, registra la salida de la máquina. En caso contrario, el almacen solicitará la fabricación de la misma.<br/><br/>Una vez el almacen envía la máquina los técnicos la reciben y realizan su instalación en la <rem:ref oid="GLO-0018">tienda</rem:ref> del <rem:ref oid="GLO-0020">cliente</rem:ref>. Tras su finalización se envía una aviso a la <rem:ref oid="GLO-0022">central</rem:ref> y, finalmente, se cierra la ficha del <rem:ref oid="GLO-0020">cliente</rem:ref>.</rem:text>
+<rem:text>En primer lugar, el comercial será el encargado de visitar las tiendas que crea oportunas. Una vez allí entregará los catálogos a sus correspondientes responsables e intentará convencerlos para formalizar una venta. En caso negativo, el comercial volverá a visitar una nueva tienda y repetirá el mismo proceso.<br/><br/>Una vez se ha formalizado una venta, el comercial pedirá los datos al cliente para comenzar la tramitación de la máquina, el cliente preparará los datos y lo recibirá el comercial. Tras comprobarlos se procederá a la solitud de pagos, que tendrá que abonar el cliente y recibirá la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>Cuando la <rem:ref oid="GLO-0022">central</rem:ref> recibe el pago solicita la instalación de la máquina. Para ello comprueba la disponibilidad en el almacén y, en el caso de disponer de stock, registra la salida de la máquina. En caso contrario, el almacén solicitará la fabricación de la misma.<br/><br/>Una vez el almacén envía la máquina los técnicos la reciben y realizan su instalación en la tienda del cliente. Tras su finalización se envía una aviso a la <rem:ref oid="GLO-0022">central</rem:ref> y, finalmente, se cierra la ficha del cliente.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -906,7 +906,7 @@ Objetivos de negocio</rem:name>
 <rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese <rem:ref oid="GLO-0020">cliente</rem:ref>? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentablidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
+<rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese cliente? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentabilidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1160,7 +1160,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-gestionar el historial de ventas por <rem:ref oid="GLO-0019">comercial</rem:ref> y mostrar datos estadísticos.</rem:description>
+gestionar el historial de ventas por comercial y mostrar datos estadísticos.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0012">
@@ -1188,7 +1188,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-listar los productos con los que cuenta el <rem:ref oid="GLO-0019">comercial</rem:ref> para conocer en cada momento el stock o el tiempo de reestablecimiento en caso de estar agotado.</rem:description>
+listar los productos con los que cuenta el comercial para conocer en cada momento el stock o el tiempo de restablecimiento en caso de estar agotado.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0013">
@@ -1321,7 +1321,7 @@ Ninguno</rem:comments>
 <rem:actor
  oid = "ACT-0001">
 <rem:name>
-<rem:ref oid="GLO-0018">Tienda</rem:ref></rem:name>
+Tienda</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1335,12 +1335,12 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>una <rem:ref oid="GLO-0018">tienda</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>una tienda del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0002">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1354,12 +1354,12 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un <rem:ref oid="GLO-0019">comercial</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>un comercial del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0003">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1373,12 +1373,12 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un <rem:ref oid="GLO-0020">cliente</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>un cliente del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1392,7 +1392,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un <rem:ref oid="GLO-0021">técnico</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>un técnico del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0005">
@@ -1434,7 +1434,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0001">
 <rem:name>
-Asignar <rem:ref oid="GLO-0018">tienda</rem:ref> a <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+Asignar tienda a comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1461,11 +1461,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar una <rem:ref oid="GLO-0018">tienda</rem:ref> particular a un <rem:ref oid="GLO-0019">comercial</rem:ref> concreto.</rem:triggeringEvent>
+la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar una tienda particular a un comercial concreto.</rem:triggeringEvent>
 <rem:precondition>
-Existen tiendas sin visitar a las que se le pueden asignar un <rem:ref oid="GLO-0019">comercial</rem:ref>.</rem:precondition>
+Existen tiendas sin visitar a las que se le pueden asignar un comercial.</rem:precondition>
 <rem:postcondition>
-El sistema ha registrado el <rem:ref oid="GLO-0019">comercial</rem:ref> a una <rem:ref oid="GLO-0018">tienda</rem:ref>.</rem:postcondition>
+El sistema ha registrado el comercial a una tienda.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1473,7 +1473,7 @@ El sistema ha registrado el <rem:ref oid="GLO-0019">comercial</rem:ref> a una <r
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-solicita asignar una <rem:ref oid="GLO-0018">tienda</rem:ref> particular a un <rem:ref oid="GLO-0019">comercial</rem:ref> concreto.</rem:description>
+solicita asignar una tienda particular a un comercial concreto.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1545,7 +1545,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-asigna el conjunto de tiendas a visitar al <rem:ref oid="GLO-0019">comercial</rem:ref> seleccionado.</rem:description>
+asigna el conjunto de tiendas a visitar al comercial seleccionado.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1554,7 +1554,7 @@ Ninguno</rem:comments>
 <rem:number>10</rem:number>
 <rem:systemAction>
 <rem:description>
-registra el <rem:ref oid="GLO-0019">comercial</rem:ref> a una <rem:ref oid="GLO-0018">tienda</rem:ref>.</rem:description>
+registra el comercial a una tienda.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1563,7 +1563,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0002">
 <rem:name>
-Asignar venta a <rem:ref oid="GLO-0018">tienda</rem:ref></rem:name>
+Asignar venta a tienda</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1590,7 +1590,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar una venta con una máquina a una <rem:ref oid="GLO-0018">tienda</rem:ref> del sistema.</rem:triggeringEvent>
+la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar una venta con una máquina a una tienda del sistema.</rem:triggeringEvent>
 <rem:precondition>
 Existen tiendas a las que hay que asignarle ventas,</rem:precondition>
 <rem:postcondition>
@@ -1602,7 +1602,7 @@ El sistema ha registrado la venta.</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-solicita asignar una venta con una máquina a una <rem:ref oid="GLO-0018">tienda</rem:ref> del sistema.</rem:description>
+solicita asignar una venta con una máquina a una tienda del sistema.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1611,7 +1611,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-busca la <rem:ref oid="GLO-0018">tienda</rem:ref> a asignarle la venta.</rem:description>
+busca la tienda a asignarle la venta.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1620,7 +1620,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:systemAction>
 <rem:description>
-devuelve la <rem:ref oid="GLO-0018">tienda</rem:ref>.</rem:description>
+devuelve la tienda.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1803,7 +1803,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0004">
 <rem:name>
-Asignar <rem:ref oid="GLO-0021">técnico</rem:ref> a venta</rem:name>
+Asignar técnico a venta</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1830,11 +1830,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar un <rem:ref oid="GLO-0021">técnico</rem:ref> concreto para la instalación de la máquina asociada a una venta.</rem:triggeringEvent>
+la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar un técnico concreto para la instalación de la máquina asociada a una venta.</rem:triggeringEvent>
 <rem:precondition>
-Existen ventas pendientes de asignarle un <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:precondition>
+Existen ventas pendientes de asignarle un técnico.</rem:precondition>
 <rem:postcondition>
-El sistema ha registrado el <rem:ref oid="GLO-0021">técnico</rem:ref> a una venta.</rem:postcondition>
+El sistema ha registrado el técnico a una venta.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1842,7 +1842,7 @@ El sistema ha registrado el <rem:ref oid="GLO-0021">técnico</rem:ref> a una vent
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-solicita asignar un <rem:ref oid="GLO-0021">técnico</rem:ref> concreto para la instalación de la máquina asociada a una venta.</rem:description>
+solicita asignar un técnico concreto para la instalación de la máquina asociada a una venta.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1851,7 +1851,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-busca la venta a asignarle el <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:description>
+busca la venta a asignarle el técnico.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1869,7 +1869,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-pulsa sobre el botón para asignar <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:description>
+pulsa sobre el botón para asignar técnico.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1878,7 +1878,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita introducir los datos del <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:description>
+solicita introducir los datos del técnico.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1905,7 +1905,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-selecciona el <rem:ref oid="GLO-0021">técnico</rem:ref> a asignarle la venta.</rem:description>
+selecciona el técnico a asignarle la venta.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1914,7 +1914,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:systemAction>
 <rem:description>
-registra el <rem:ref oid="GLO-0021">técnico</rem:ref> a una venta.</rem:description>
+registra el técnico a una venta.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2001,7 +2001,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0002">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2043,7 +2043,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0003">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2169,7 +2169,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0006">
 <rem:name>
-<rem:ref oid="GLO-0018">Tienda</rem:ref></rem:name>
+Tienda</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2211,7 +2211,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0007">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2424,7 +2424,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-Los técnicos no podrán realizar la instalación de una máquina a una <rem:ref oid="GLO-0018">tienda</rem:ref> hasta que se reciba el pago correspondiente.</rem:description>
+Los técnicos no podrán realizar la instalación de una máquina a una tienda hasta que se reciba el pago correspondiente.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0002">
@@ -2493,7 +2493,7 @@ Los pagos no podrán ser borrados bajo ninguna circunstancia.</rem:description>
 <rem:constraintRequirement
  oid = "CRQ-0004">
 <rem:name>
-No asignación <rem:ref oid="GLO-0021">técnico</rem:ref>-máquina sin stock</rem:name>
+No asignación técnico-máquina sin stock</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2520,7 +2520,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-No se podrá asignar la instalación de una máquina a un <rem:ref oid="GLO-0021">técnico</rem:ref> hasta que el producto esté en stock.</rem:description>
+No se podrá asignar la instalación de una máquina a un técnico hasta que el producto esté en stock.</rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section
@@ -2543,7 +2543,7 @@ Ninguno</rem:comments>
 <rem:functionalRequirement
  oid = "FRQ-0001">
 <rem:name>
-Notificar al <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+Notificar al comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2570,12 +2570,12 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-enviar una notificación al <rem:ref oid="GLO-0019">comercial</rem:ref> indicando las tiendas que le han sido asignadas.</rem:description>
+enviar una notificación al comercial indicando las tiendas que le han sido asignadas.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0002">
 <rem:name>
-Notificar al <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
+Notificar al técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2602,7 +2602,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-enviar una notificación al <rem:ref oid="GLO-0021">técnico</rem:ref> indicando las tiendas que le han sido asignadas para realizar una instalación.</rem:description>
+enviar una notificación al técnico indicando las tiendas que le han sido asignadas para realizar una instalación.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0003">
@@ -3630,7 +3630,7 @@ Ninguno</rem:comments>
 <rem:minute>30</rem:minute>
 </rem:time>
 <rem:place>Espartinas</rem:place>
-<rem:results>Primera toma de contacto entre el <rem:ref oid="GLO-0020">cliente</rem:ref> y los desarolladores.<br/><br/>Como primer punto de la mañana, el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
+<rem:results>Primera toma de contacto entre el cliente y los desarrolladores.<br/><br/>Como primer punto de la mañana, el cliente explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el cliente explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
 	<rem:attenders stakeholders ="STK-0003 STK-0002 STK-0001 "/>
 </rem:meeting>
 </rem:section>
@@ -3804,7 +3804,7 @@ Introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El siguiente documento de carácter <rem:ref oid="GLO-0021">técnico</rem:ref> contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</rem:text>
+<rem:text>El siguiente documento de carácter técnico contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0053">
@@ -3873,7 +3873,7 @@ Objetivos</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Una vez desarrollado el sistema, el <rem:ref oid="GLO-0020">cliente</rem:ref> contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</rem:text>
+<rem:text>Una vez desarrollado el sistema, el cliente contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -3984,6 +3984,25 @@ Diagramas de clases del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0004">
+<rem:name>
+Diagrama de clases</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\images\Class Diagram.png]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0060">
@@ -4002,6 +4021,125 @@ Descripción de las clases del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0046">
+<rem:name>
+Persona</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Persona: Es el tipo padre de los actores del sistema, en el se recogen cada uno de los campos que tienen en común los actores.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0047">
+<rem:name>
+Cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cliente: Es una de las clases hijas del tipo Persona, este actor representa a un cliente en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el actor Cliente es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0048">
+<rem:name>
+Comercial</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Comercial: Es otro de las clases hijas del tipo Persona. En este caso el tipo Comercial representa a un trabajador de la empresa que realiza el papel de visitar tiendas e intentar conseguir alguna venta. En consecuencia a las funciones mencionadas anteriormente que realiza el papel de comercial, derivan las dos relaciones naturales fruto de su función: Tienda y Venta. Las tiendas corresponden a las tiendas asignada a visitar o ya visitadas, y el tipo Venta a las ventas realizadas por el comercial en esa tienda.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0049">
+<rem:name>
+Técnico</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Técnico: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de Técnico, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un cliente se asocia a la instalación de máquinas definidas en una venta.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0050">
+<rem:name>
+Tienda</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: Cliente, Comercial y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0051">
+<rem:name>
+Venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Venta: Es el eje <rem:ref oid="GLO-0022">central</rem:ref> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con Técnico, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con Incidencia, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con Comercial, aquí se indica qué comercial a obtenido esa misma venta.</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0052">
+<rem:name>
+Pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el cliente a abonado la cantidad monetaria de la venta.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0061">
@@ -4178,7 +4316,7 @@ Pantalla de login</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Pantalla de login: la <rem:ref oid="GLO-0022">central</rem:ref> deberá introducir su identificador (correo electrónico) y contraseña asociada a su cuenta. Posteriormente pulsará sobre &quot;Iniciar sesión&quot; para la comprobación de los datos incluidos. En caso de ser correctos, accederá al panel asociado a su cuenta. En caso contrario, volverá al formulario donde se especificará el error correspondiente.</rem:text>
+<rem:text>Pantalla de login: La <rem:ref oid="GLO-0022">central</rem:ref> deberá introducir su identificador (correo electrónico) y contraseña asociada a su cuenta. Posteriormente pulsará sobre &quot;Iniciar sesión&quot; para la comprobación de los datos incluidos. En caso de ser correctos, accederá al panel asociado a su cuenta. En caso contrario, volverá al formulario donde se especificará el error correspondiente.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0035">
@@ -4195,7 +4333,7 @@ Zonas a visitar</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Zonas a visitar: se mostrará un mapa ampliable y deslizable. Al desplazarse sobre el mapa aparecerá una tabla con las distintas zonas disponibles para seleccionar y la <rem:ref oid="GLO-0022">central</rem:ref> podrá elegir una de ellas.</rem:text>
+<rem:text>Zonas a visitar: Se mostrará un mapa ampliable y deslizable. Al desplazarse sobre el mapa aparecerá una tabla con las distintas zonas disponibles para seleccionar y la <rem:ref oid="GLO-0022">central</rem:ref> podrá elegir una de ellas.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0036">
@@ -4212,12 +4350,12 @@ Tiendas en la zona</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Tiendas en la zona: se mostrará una tabla con las distintas tiendas disponibles en la zona especificada. A la derecha de cada elemento se mostrará una casilla de selección.</rem:text>
+<rem:text>Tiendas en la zona: Se mostrará una tabla con las distintas tiendas disponibles en la zona especificada. A la derecha de cada elemento se mostrará una casilla de selección.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0037">
 <rem:name>
-Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+Seleccionar comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4229,7 +4367,7 @@ Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref>: se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</rem:text>
+<rem:text>Seleccionar comercial: Se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0038">
@@ -4246,7 +4384,7 @@ Listado de tiendas</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Listado de tiendas: se mostrará una tabla con las tiendas disponibles. A la derecha de cada elemento se mostrará un botón para asignarle una nueva venta.</rem:text>
+<rem:text>Listado de tiendas: Se mostrará una tabla con las tiendas disponibles. A la derecha de cada elemento se mostrará un botón para asignarle una nueva venta.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0039">
@@ -4263,7 +4401,7 @@ Nueva venta</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Nueva venta: se mostrará un formulario con información a rellenar sobre la venta. En ella se especificará la fecha de venta, la persona de contacto y su teléfono de contacto. Además se mostrará otro campo de selección donde se indicará la máquina asociada con la venta.</rem:text>
+<rem:text>Nueva venta: Se mostrará un formulario con información a rellenar sobre la venta. En ella se especificará la fecha de venta, la persona de contacto y su teléfono de contacto. Además se mostrará otro campo de selección donde se indicará la máquina asociada con la venta.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0040">
@@ -4280,7 +4418,7 @@ Listado de ventas</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Listado de ventas: se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o <rem:ref oid="GLO-0021">técnico</rem:ref>, dependiendo de la acción que quiera realizar la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
+<rem:text>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o técnico, dependiendo de la acción que quiera realizar la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0041">
@@ -4297,12 +4435,12 @@ Nuevo pago</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Nuevo pago: se mostrará un formulario con información a rellenar sobre el pago. En ella se especificará la fecha límite del pago y la cantidad a abonar.</rem:text>
+<rem:text>Nuevo pago: Se mostrará un formulario con información a rellenar sobre el pago. En ella se especificará la fecha límite del pago y la cantidad a abonar.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0042">
 <rem:name>
-Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
+Seleccionar técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4314,7 +4452,7 @@ Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref>: se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</rem:text>
+<rem:text>Seleccionar técnico: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -4349,76 +4487,31 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "IRQ-0008"  target = "UC-0001" >
+<rem:trace source = "FRQ-0002"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0004" >
+<rem:trace source = "FRQ-0001"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0004"  target = "UC-0004" >
+<rem:trace source = "FRQ-0003"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0011"  target = "UC-0002" >
+<rem:trace source = "OBJ-0012"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0004" >
+<rem:trace source = "OBJ-0007"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0011"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0010"  target = "UC-0003" >
+<rem:trace source = "OBJ-0014"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0010"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0009"  target = "UC-0002" >
+<rem:trace source = "CRQ-0007"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0010"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "UC-0002" >
+<rem:trace source = "CRQ-0004"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "UC-0003" >
@@ -4427,71 +4520,95 @@ Ninguno
 <rem:trace source = "IRQ-0002"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "CRQ-0005"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0010"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "IRQ-0003"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "UC-0001" >
+<rem:trace source = "CRQ-0003"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0001"  target = "UC-0001" >
+<rem:trace source = "OBJ-0011"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "UC-0004" >
+<rem:trace source = "CRQ-0005"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0006"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "IRQ-0007"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "IRQ-0006"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0002"  target = "UC-0004" >
+<rem:trace source = "IRQ-0009"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0007"  target = "UC-0003" >
+<rem:trace source = "IRQ-0010"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0012"  target = "UC-0002" >
+<rem:trace source = "CRQ-0005"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0003"  target = "UC-0003" >
+<rem:trace source = "CRQ-0006"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0014"  target = "UC-0001" >
+<rem:trace source = "CRQ-0007"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0005"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "UC-0001" >
+<rem:trace source = "CRQ-0005"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0011"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0006">
+ oid = "PVT-0002">
 <rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
+Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4504,7 +4621,28 @@ String</rem:name>
 <rem:comments>
 Predefined OCL type</rem:comments>
 <rem:description>
-Alphanumeric strings</rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -4552,30 +4690,9 @@ Natural numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0002">
+ oid = "PVT-0006">
 <rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
+Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4588,131 +4705,80 @@ Date</rem:name>
 <rem:comments>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Dates</rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
 <![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -4727,16 +4793,28 @@ Dates</rem:description>
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
@@ -4745,26 +4823,86 @@ Dates</rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
@@ -4772,17 +4910,17 @@ Dates</rem:description>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
@@ -4793,20 +4931,29 @@ Dates</rem:description>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
@@ -4814,29 +4961,20 @@ Dates</rem:description>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
