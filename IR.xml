@@ -193,7 +193,7 @@ Grupo de IR</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:address>Escuela Técnica Superior de Ingeniería Informática</rem:address>
@@ -373,7 +373,7 @@ Introducción al dominio del problema</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>La empresa a la que vamos a realizar el sistema de información es una empresa encargada de la fabricación, distribución y soporte de máquinas relacionadas con el ocio y recarga de móviles. <br/><br/>El problema con el que nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantías, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursos para poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
@@ -547,7 +547,7 @@ Ninguno</rem:comments>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos positivos de la situación actual.<br/><br/>- Es un trato más directo y cercano entre comercial-cliente.<br/><br/>- Se evitan problemas relaciones con la tecnología, como fallos en el sistema ajenos al comercial.</rem:text>
@@ -583,7 +583,7 @@ Ninguno</rem:comments>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación actual.<br/><br/>- El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.<br/><br/>- El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.<br/><br/>- No se dispone de una comunicación adecuada entre comercial y <rem:ref oid="GLO-0022">central</rem:ref> para conocer el estado de la máquina una vez solicitada.<br/><br/>- No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>- El cliente, para hacer uso de la <rem:ref oid="GLO-0028">garantía</rem:ref>, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
@@ -740,7 +740,7 @@ BPMN</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -760,7 +760,7 @@ Ninguno</rem:comments>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>En primer lugar, el comercial será el encargado de visitar las tiendas que crea oportunas. Una vez allí entregará los catálogos a sus correspondientes responsables e intentará convencerlos para formalizar una venta. En caso negativo, el comercial volverá a visitar una nueva tienda y repetirá el mismo proceso.<br/><br/>Una vez se ha formalizado una venta, el comercial pedirá los datos al cliente para comenzar la tramitación de la máquina, el cliente preparará los datos y lo recibirá el comercial. Tras comprobarlos se procederá a la solitud de pagos, que tendrá que abonar el cliente y recibirá la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>Cuando la <rem:ref oid="GLO-0022">central</rem:ref> recibe el pago solicita la instalación de la máquina. Para ello comprueba la disponibilidad en el almacén y, en el caso de disponer de stock, registra la salida de la máquina. En caso contrario, el almacén solicitará la fabricación de la misma.<br/><br/>Una vez el almacén envía la máquina los técnicos la reciben y realizan su instalación en la tienda del cliente. Tras su finalización se envía una aviso a la <rem:ref oid="GLO-0022">central</rem:ref> y, finalmente, se cierra la ficha del cliente.</rem:text>
@@ -903,7 +903,7 @@ Objetivos de negocio</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese cliente? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentabilidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
@@ -1015,6 +1015,23 @@ Descripción de los subsistemas del sistema a desarrollar</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>6 </rem:number>
+<rem:paragraph
+ oid = "PRG-0053">
+<rem:name>
+Descripción de los subsistemas del sistema a desarrollar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El sistema software a desarrollar no requiere ser dividido en subsistemas.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0028">
@@ -1063,7 +1080,7 @@ Gestionar pagos</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1091,7 +1108,7 @@ Gestionar garantías e incidencias</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1119,7 +1136,7 @@ Gestionar ficha de clientes</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1147,7 +1164,7 @@ Generación de estadísticas</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1175,7 +1192,7 @@ Gestionar productos y stock</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1203,7 +1220,7 @@ Gestionar empleados</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1231,7 +1248,7 @@ Disminuir gasto de gasolina</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1331,7 +1348,7 @@ Tienda</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1350,7 +1367,7 @@ Comercial</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1369,7 +1386,7 @@ Cliente</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1388,7 +1405,7 @@ Técnico</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1407,7 +1424,7 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1444,7 +1461,7 @@ Asignar tienda a comercial</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1573,7 +1590,7 @@ Asignar venta a tienda</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1711,7 +1728,7 @@ Asignar pago a venta</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1813,7 +1830,7 @@ Asignar técnico a venta</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1969,7 +1986,7 @@ Pago</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2011,7 +2028,7 @@ Cliente</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2053,7 +2070,7 @@ Técnico</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2095,7 +2112,7 @@ Incidencia</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2137,7 +2154,7 @@ Producto</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2179,7 +2196,7 @@ Tienda</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2221,7 +2238,7 @@ Comercial</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2263,7 +2280,7 @@ Ninguno</rem:comments>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2305,7 +2322,7 @@ Almacén</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2347,7 +2364,7 @@ Venta</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2407,7 +2424,7 @@ No instalación hasta el pago</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2439,7 +2456,7 @@ No solucionar incidencias pasada la <rem:ref oid="GLO-0028">garantía</rem:ref></
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2471,7 +2488,7 @@ No borrar pagos</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2503,7 +2520,7 @@ No asignación técnico-máquina sin stock</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2553,7 +2570,7 @@ Notificar al comercial</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2585,7 +2602,7 @@ Notificar al técnico</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2617,7 +2634,7 @@ Generar facturas</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2685,7 +2702,7 @@ Manejar excepciones del sistema</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2717,7 +2734,7 @@ Disponibilidad del sistema</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2749,7 +2766,7 @@ Recuperación en caso de caída</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2799,7 +2816,7 @@ Interfaz de usuario accesible</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2831,7 +2848,7 @@ Menú de navegación siempre visible</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2881,7 +2898,7 @@ Estándares del código</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2931,7 +2948,7 @@ Tiempo de consulta a la BD</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2999,7 +3016,7 @@ Inicio de sesión</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3031,7 +3048,7 @@ Evitar código SQL malintencionado</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3100,7 +3117,7 @@ Compatibilidad con navegadores</rem:name>
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3132,7 +3149,7 @@ Compatibilidad con móviles</rem:name>
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3164,7 +3181,7 @@ Gestión de la base de datos</rem:name>
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3278,7 +3295,7 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0013"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3332,92 +3349,6 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-</rem:tr>
-</rem:traceabilityMatrix>
-<rem:traceabilityMatrix
- oid = "TRM-0003">
-<rem:name>
-Matriz de trazabilidad: Requisitos no funcionales</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>12</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:tr>
-<rem:th/>
-<rem:th oid ="UC-0001"/>
-<rem:th oid ="UC-0002"/>
-<rem:th oid ="UC-0003"/>
-<rem:th oid ="UC-0004"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0001"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0002"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0003"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0004"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0005"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0006"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0007"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0008"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0009"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 </rem:traceabilityMatrix>
@@ -3631,7 +3562,35 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Espartinas</rem:place>
 <rem:results>Primera toma de contacto entre el cliente y los desarrolladores.<br/><br/>Como primer punto de la mañana, el cliente explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el cliente explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
-	<rem:attenders stakeholders ="STK-0003 STK-0002 STK-0001 "/>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
+</rem:meeting>
+<rem:meeting
+ oid = "MET-0002">
+<rem:name>
+Aspectos técnicos del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>10</rem:hour>
+<rem:minute>30</rem:minute>
+</rem:time>
+<rem:place>Espartinas</rem:place>
+<rem:results>En primer lugar, se trataron los aspectos técnicos del sistema a desarrollar, así como el soporte donde se visualizará el sistema: un ordenador.<br/><br/>En segundo lugar, se especificaron los distintos apartados y secciones que las pantallas del sistema deberían contener, así como la información requerida por los distintos actores del sistema.<br/><br/>Duración de la reunión: 60 minutos.</rem:results>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
 </rem:meeting>
 </rem:section>
 <rem:section
@@ -4158,6 +4117,23 @@ Diagramas de estado de las clases del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.3 </rem:number>
+<rem:paragraph
+ oid = "PRG-0054">
+<rem:name>
+Diagrama de estado de las clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
@@ -4487,67 +4463,25 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "FRQ-0002"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "FRQ-0001"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0003"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0012"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0007"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "OBJ-0014"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0010"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0004"  target = "UC-0004" >
+<rem:trace source = "FRQ-0003"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0007"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "IRQ-0002"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0011"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0002"  target = "UC-0001" >
@@ -4556,55 +4490,121 @@ Ninguno
 <rem:trace source = "IRQ-0002"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0010"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0009"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0010"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0003" >
+<rem:trace source = "IRQ-0003"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0005"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "IRQ-0006"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0002"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0011"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "CRQ-0005"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0010"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0011"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "CRQ-0001"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0013"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0002">
 <rem:name>
@@ -4648,48 +4648,6 @@ Dates</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0001">
-<rem:name>
-Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Real numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
  oid = "PVT-0006">
 <rem:name>
 Time</rem:name>
@@ -4706,6 +4664,27 @@ Time</rem:name>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
 Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -4733,35 +4712,35 @@ Alphanumeric strings</rem:description>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
@@ -4775,22 +4754,70 @@ Alphanumeric strings</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -4805,64 +4832,10 @@ Alphanumeric strings</rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
 <rem:name>Dependiente del diseño</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -4871,89 +4844,80 @@ Alphanumeric strings</rem:description>
 <![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
@@ -4961,8 +4925,23 @@ Alphanumeric strings</rem:description>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
