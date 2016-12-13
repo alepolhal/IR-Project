@@ -200,7 +200,7 @@ Descripción de la interfaz de usuario del sistema</a>
 <a name="SEC-0052" />
 <h1 align="left">1 
 Introducción</h1><a name="PRG-0043" />
-<p>El siguiente documento de carácter <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a> contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</p>
+<p>El siguiente documento de carácter técnico contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</p>
 <a name="SEC-0053" />
 <h2 align="left">1.1 
 Alcance</h2><a name="PRG-0044" />
@@ -208,7 +208,7 @@ Alcance</h2><a name="PRG-0044" />
 <a name="SEC-0054" />
 <h2 align="left">1.2 
 Objetivos</h2><a name="PRG-0045" />
-<p>Una vez desarrollado el sistema, el <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</p>
+<p>Una vez desarrollado el sistema, el cliente contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</p>
 <a name="SEC-0055" />
 <h1 align="left">2 
 Arquitectura lógica del sistema</h1><a name="SEC-0056" />
@@ -240,20 +240,17 @@ Diagrama de clases</p>
 Descripción de las clases del sistema</h2><a name="PRG-0046" />
 <p>Persona: Es el tipo padre de los actores del sistema, en el se recogen cada uno de los campos que tienen en común los actores.</p>
 <a name="PRG-0047" />
-<p>
-<a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">Cliente</a>: Es una de las clases hijas del tipo Persona, este actor representa a un <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el actor <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">Cliente</a> es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</p>
+<p>Cliente: Es una de las clases hijas del tipo Persona, este actor representa a un cliente en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el actor Cliente es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</p>
 <a name="PRG-0048" />
-<p>
-<a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">Comercial</a>: Es otro de las clases hijas del tipo Persona. En este caso el tipo <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">Comercial</a> representa a un trabajador de la empresa que realiza el papel de visitar tiendas e intentar conseguir alguna venta. En consecuencia a las funciones mencionadas anteriormente que realiza el papel de <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a>, derivan las dos relaciones naturales fruto de su función: Tienda y Venta. Las tiendas corresponden a las tiendas asignada a visitar o ya visitadas, y el tipo Venta a las ventas realizadas por el <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> en esa tienda.</p>
+<p>Comercial: Es otro de las clases hijas del tipo Persona. En este caso el tipo Comercial representa a un trabajador de la empresa que realiza el papel de visitar tiendas e intentar conseguir alguna venta. En consecuencia a las funciones mencionadas anteriormente que realiza el papel de comercial, derivan las dos relaciones naturales fruto de su función: Tienda y Venta. Las tiendas corresponden a las tiendas asignada a visitar o ya visitadas, y el tipo Venta a las ventas realizadas por el comercial en esa tienda.</p>
 <a name="PRG-0049" />
-<p>
-<a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">Técnico</a>: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">Técnico</a>, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> se asocia a la instalación de máquinas definidas en una venta.</p>
+<p>Técnico: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de Técnico, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un cliente se asocia a la instalación de máquinas definidas en una venta.</p>
 <a name="PRG-0050" />
-<p>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">Cliente</a>, <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">Comercial</a> y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</p>
+<p>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: Cliente, Comercial y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</p>
 <a name="PRG-0051" />
-<p>Venta: Es el eje <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">Técnico</a>, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con Incidencia, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">Comercial</a>, aquí se indica qué <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a> a obtenido esa misma venta.</p>
+<p>Venta: Es el eje <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con Técnico, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con Incidencia, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con Comercial, aquí se indica qué comercial a obtenido esa misma venta.</p>
 <a name="PRG-0052" />
-<p>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> a abonado la cantidad monetaria de la venta.</p>
+<p>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el cliente a abonado la cantidad monetaria de la venta.</p>
 <a name="SEC-0061" />
 <h2 align="left">3.3 
 Diagramas de estado de las clases del sistema</h2><a name="PRG-0054" />
@@ -289,16 +286,16 @@ Descripción de la interfaz de usuario del sistema</h2><a name="PRG-0034" />
 <a name="PRG-0036" />
 <p>Tiendas en la zona: Se mostrará una tabla con las distintas tiendas disponibles en la zona especificada. A la derecha de cada elemento se mostrará una casilla de selección.</p>
 <a name="PRG-0037" />
-<p>Seleccionar <a href="#GLO-0019" title="Persona que ofrece las máquinas, visitará las tiendas y estará en comunicación con los clientes.">comercial</a>: Se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</p>
+<p>Seleccionar comercial: Se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</p>
 <a name="PRG-0038" />
 <p>Listado de tiendas: Se mostrará una tabla con las tiendas disponibles. A la derecha de cada elemento se mostrará un botón para asignarle una nueva venta.</p>
 <a name="PRG-0039" />
 <p>Nueva venta: Se mostrará un formulario con información a rellenar sobre la venta. En ella se especificará la fecha de venta, la persona de contacto y su teléfono de contacto. Además se mostrará otro campo de selección donde se indicará la máquina asociada con la venta.</p>
 <a name="PRG-0040" />
-<p>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a>, dependiendo de la acción que quiera realizar la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a>.</p>
+<p>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o técnico, dependiendo de la acción que quiera realizar la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a>.</p>
 <a name="PRG-0041" />
 <p>Nuevo pago: Se mostrará un formulario con información a rellenar sobre el pago. En ella se especificará la fecha límite del pago y la cantidad a abonar.</p>
 <a name="PRG-0042" />
-<p>Seleccionar <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a>: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</p>
+<p>Seleccionar técnico: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</p>
 </body>
 </html>

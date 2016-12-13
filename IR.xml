@@ -157,7 +157,7 @@ Juan Polvillo Luque</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:stakeholderRole><rem:ref oid="GLO-0019">Comercial</rem:ref></rem:stakeholderRole>
+<rem:stakeholderRole>Comercial</rem:stakeholderRole>
 <rem:isCustomer/>
 <rem:isUser/>
 <rem:worksFor organization = "ORG-0001"/>
@@ -193,7 +193,7 @@ Grupo de IR</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:address>Escuela Técnica Superior de Ingeniería Informática</rem:address>
@@ -287,7 +287,7 @@ Alcance</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El proyecto pretende solventar las necesidades de nuestro <rem:ref oid="GLO-0020">cliente</rem:ref>, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <rem:ref oid="GLO-0024">sistema informático</rem:ref> todo el proceso de venta, gestión y comunicación con los distintos actores participantes en el sistema.</rem:text>
+<rem:text>El proyecto pretende solventar las necesidades de nuestro cliente, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <rem:ref oid="GLO-0024">sistema informático</rem:ref> todo el proceso de venta, gestión y comunicación con los distintos actores participantes en el sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -322,7 +322,7 @@ Objetivos</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El proyecto se centrará en la creación de un sistema ERP. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asociaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del <rem:ref oid="GLO-0020">cliente</rem:ref> mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
+<rem:text>El proyecto se centrará en la creación de un sistema ERP. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asociaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del cliente mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -373,7 +373,7 @@ Introducción al dominio del problema</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>La empresa a la que vamos a realizar el sistema de información es una empresa encargada de la fabricación, distribución y soporte de máquinas relacionadas con el ocio y recarga de móviles. <br/><br/>El problema con el que nos presentamos hoy, es principalmente un problema de organización y de gestión. Puesto que no tienen ningún mecanismo de gestión de ninguno de los recursos que tienen, lo que podría llevar al desastre si la empresa sigue creciendo, y aumentando más personal.<br/><br/>Los principales actores son: técnicos, comerciales, pagos, garantías, máquinas.<br/><br/>Nosotros proponemos un sistema que sea capaz de gestionar eficientemente estos recursos para poder restablecer un orden en todo el proceso de negocio y una estabilidad tanto para el futuro del negocio, como para el presente.<br/><br/>Otro factor a tener en cuenta y a gestionar es el tema de la gasolina, ésta empresa paga la gasolina a sus comerciales, pero éstos no tienen ningún control sobre el uso que hacen sobre esa gasolina, otro factor influyente, sobre e que tendremos que buscar una solución.</rem:text>
@@ -411,7 +411,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Listado de productos que se ofertan en formato papel o digital que el <rem:ref oid="GLO-0019">comercial</rem:ref> entregará al <rem:ref oid="GLO-0020">cliente</rem:ref>.</rem:text>
+<rem:text>Listado de productos que se ofertan en formato papel o digital que el comercial entregará al cliente.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0024">
@@ -428,7 +428,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Sistema que se desarrollará para el <rem:ref oid="GLO-0020">cliente</rem:ref> y permitirá almacenar y procesar información.</rem:text>
+<rem:text>Sistema que se desarrollará para el cliente y permitirá almacenar y procesar información.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0027">
@@ -445,7 +445,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Recorrido que tendrá que realizar el <rem:ref oid="GLO-0019">comercial</rem:ref> para visitar las distintas tiendas.</rem:text>
+<rem:text>Recorrido que tendrá que realizar el comercial para visitar las distintas tiendas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0028">
@@ -462,7 +462,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Compromiso del <rem:ref oid="GLO-0019">comercial</rem:ref> para solucionar gratuitamente los problemas del producto en un periodo de tiempo determinado.</rem:text>
+<rem:text>Compromiso del comercial para solucionar gratuitamente los problemas del producto en un periodo de tiempo determinado.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0029">
@@ -547,10 +547,10 @@ Ninguno</rem:comments>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos positivos de la situación actual.<br/><br/>- Es un trato más directo y cercano entre <rem:ref oid="GLO-0019">comercial</rem:ref>-<rem:ref oid="GLO-0020">cliente</rem:ref>.<br/><br/>- Se evitan problemas relaciones con la tecnología, como fallos en el sistema ajenos al <rem:ref oid="GLO-0019">comercial</rem:ref>.</rem:text>
+<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos positivos de la situación actual.<br/><br/>- Es un trato más directo y cercano entre comercial-cliente.<br/><br/>- Se evitan problemas relaciones con la tecnología, como fallos en el sistema ajenos al comercial.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -583,10 +583,10 @@ Ninguno</rem:comments>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación actual.<br/><br/>- El <rem:ref oid="GLO-0019">comercial</rem:ref> necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.<br/><br/>- El <rem:ref oid="GLO-0019">comercial</rem:ref>, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.<br/><br/>- No se dispone de una comunicación adecuada entre <rem:ref oid="GLO-0019">comercial</rem:ref> y <rem:ref oid="GLO-0022">central</rem:ref> para conocer el estado de la máquina una vez solicitada.<br/><br/>- No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>- El <rem:ref oid="GLO-0020">cliente</rem:ref>, para hacer uso de la <rem:ref oid="GLO-0028">garantía</rem:ref>, necesita comunicárselo directamente al <rem:ref oid="GLO-0019">comercial</rem:ref> mediante teléfono, quien actuaría de intermediario con la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
+<rem:text>A continuación detallaremos algunos aspectos relacionados con los puntos negativos de la situación actual.<br/><br/>- El comercial necesita visitar aleatoriamente que crea oportunas, sin disponer de rutas efectivas ni tiendas para visitar predefinidas por la compañía.<br/><br/>- El comercial, tras formalizar o destacar una venta, no tiene control sobre ella y su estado en cada momento.<br/><br/>- No se dispone de una comunicación adecuada entre comercial y <rem:ref oid="GLO-0022">central</rem:ref> para conocer el estado de la máquina una vez solicitada.<br/><br/>- No existe posibilidad de comprobar disponibilidad de una máquina sin antes contactar directamente con la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>- El cliente, para hacer uso de la <rem:ref oid="GLO-0028">garantía</rem:ref>, necesita comunicárselo directamente al comercial mediante teléfono, quien actuaría de intermediario con la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -639,12 +639,12 @@ Tienda</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Lugar que visitará el <rem:ref oid="GLO-0019">comercial</rem:ref>, donde obtendrá los posibles clientes.</rem:text>
+<rem:text>Lugar que visitará el comercial, donde obtendrá los posibles clientes.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0019">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -661,7 +661,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0020">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -673,12 +673,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Personal de la tienda el cuál recibirá el producto por el <rem:ref oid="GLO-0019">comercial</rem:ref>.</rem:text>
+<rem:text>Personal de la tienda el cuál recibirá el producto por el comercial.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0021">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -707,7 +707,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al <rem:ref oid="GLO-0020">cliente</rem:ref>.</rem:text>
+<rem:text>Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section
@@ -740,7 +740,7 @@ BPMN</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -760,10 +760,10 @@ Ninguno</rem:comments>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En primer lugar, el <rem:ref oid="GLO-0019">comercial</rem:ref> será el encargado de visitar las tiendas que crea oportunas. Una vez allí entregará los catálogos a sus correspondientes responsables e intentará convencerlos para formalizar una venta. En caso negativo, el <rem:ref oid="GLO-0019">comercial</rem:ref> volverá a visitar una nueva tienda y repetirá el mismo proceso.<br/><br/>Una vez se ha formalizado una venta, el <rem:ref oid="GLO-0019">comercial</rem:ref> pedirá los datos al <rem:ref oid="GLO-0020">cliente</rem:ref> para comenzar la tramitación de la máquina, el <rem:ref oid="GLO-0020">cliente</rem:ref> preparará los datos y lo recibirá el <rem:ref oid="GLO-0019">comercial</rem:ref>. Tras comprobarlos se procederá a la solitud de pagos, que tendrá que abonar el <rem:ref oid="GLO-0020">cliente</rem:ref> y recibirá la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>Cuando la <rem:ref oid="GLO-0022">central</rem:ref> recibe el pago solicita la instalación de la máquina. Para ello comprueba la disponibilidad en el almacén y, en el caso de disponer de stock, registra la salida de la máquina. En caso contrario, el almacén solicitará la fabricación de la misma.<br/><br/>Una vez el almacén envía la máquina los técnicos la reciben y realizan su instalación en la tienda del <rem:ref oid="GLO-0020">cliente</rem:ref>. Tras su finalización se envía una aviso a la <rem:ref oid="GLO-0022">central</rem:ref> y, finalmente, se cierra la ficha del <rem:ref oid="GLO-0020">cliente</rem:ref>.</rem:text>
+<rem:text>En primer lugar, el comercial será el encargado de visitar las tiendas que crea oportunas. Una vez allí entregará los catálogos a sus correspondientes responsables e intentará convencerlos para formalizar una venta. En caso negativo, el comercial volverá a visitar una nueva tienda y repetirá el mismo proceso.<br/><br/>Una vez se ha formalizado una venta, el comercial pedirá los datos al cliente para comenzar la tramitación de la máquina, el cliente preparará los datos y lo recibirá el comercial. Tras comprobarlos se procederá a la solitud de pagos, que tendrá que abonar el cliente y recibirá la <rem:ref oid="GLO-0022">central</rem:ref>.<br/><br/>Cuando la <rem:ref oid="GLO-0022">central</rem:ref> recibe el pago solicita la instalación de la máquina. Para ello comprueba la disponibilidad en el almacén y, en el caso de disponer de stock, registra la salida de la máquina. En caso contrario, el almacén solicitará la fabricación de la misma.<br/><br/>Una vez el almacén envía la máquina los técnicos la reciben y realizan su instalación en la tienda del cliente. Tras su finalización se envía una aviso a la <rem:ref oid="GLO-0022">central</rem:ref> y, finalmente, se cierra la ficha del cliente.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -903,10 +903,10 @@ Objetivos de negocio</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese <rem:ref oid="GLO-0020">cliente</rem:ref>? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentabilidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
+<rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese cliente? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentabilidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1030,7 +1030,7 @@ Descripción de los subsistemas del sistema a desarrollar</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En nuestros casos de usos existen 2 subsistemas a desarrollar:<br/><br/>El primer subsistema a desarrollar engloba la funcionalidad que consisten en la gestión de visitas a tiendas por parte de los comerciales, en este subsistema está compuesto por el caso de uso: &quot;Asignar tienda a comercial&quot;.<br/><br/>El segundo subsistema a desarrollar engloba la funcionalidad de la gestión del proceso completo de venta, que va desde que el <rem:ref oid="GLO-0019">comercial</rem:ref> obtiene la venta hasta que se realiza la instalación pasando por el pago. En el subsistema interviene los siguientes casos de usos: &quot;Asignar venta a tienda&quot;, &quot;Asignar pago a venta&quot; y &quot;Asignar <rem:ref oid="GLO-0021">técnico</rem:ref> a venta&quot;.</rem:text>
+<rem:text>En nuestros casos de usos existen 2 subsistemas a desarrollar:<br/><br/>El primer subsistema a desarrollar engloba la funcionalidad que consisten en la gestión de visitas a tiendas por parte de los comerciales, en este subsistema está compuesto por el caso de uso: &quot;Asignar tienda a comercial&quot;.<br/><br/>El segundo subsistema a desarrollar engloba la funcionalidad de la gestión del proceso completo de venta, que va desde que el comercial obtiene la venta hasta que se realiza la instalación pasando por el pago. En el subsistema interviene los siguientes casos de usos: &quot;Asignar venta a tienda&quot;, &quot;Asignar pago a venta&quot; y &quot;Asignar técnico a venta&quot;.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1080,7 +1080,7 @@ Gestionar pagos</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1108,7 +1108,7 @@ Gestionar garantías e incidencias</rem:name>
 <rem:day>27</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1136,7 +1136,7 @@ Gestionar ficha de clientes</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1164,7 +1164,7 @@ Generación de estadísticas</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1177,7 +1177,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-gestionar el historial de ventas por <rem:ref oid="GLO-0019">comercial</rem:ref> y mostrar datos estadísticos.</rem:description>
+gestionar el historial de ventas por comercial y mostrar datos estadísticos.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0012">
@@ -1192,7 +1192,7 @@ Gestionar productos y stock</rem:name>
 <rem:day>1</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1205,7 +1205,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-listar los productos con los que cuenta el <rem:ref oid="GLO-0019">comercial</rem:ref> para conocer en cada momento el stock o el tiempo de restablecimiento en caso de estar agotado.</rem:description>
+listar los productos con los que cuenta el comercial para conocer en cada momento el stock o el tiempo de restablecimiento en caso de estar agotado.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0013">
@@ -1220,7 +1220,7 @@ Gestionar empleados</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1248,7 +1248,7 @@ Disminuir gasto de gasolina</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1348,7 +1348,7 @@ Tienda</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1357,7 +1357,7 @@ Ninguno</rem:comments>
 <rem:actor
  oid = "ACT-0002">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1367,16 +1367,16 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un <rem:ref oid="GLO-0019">comercial</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>un comercial del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0003">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1386,16 +1386,16 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un <rem:ref oid="GLO-0020">cliente</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>un cliente del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1405,11 +1405,11 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>un <rem:ref oid="GLO-0021">técnico</rem:ref> del sistema.</rem:actorRole>
+<rem:actorRole>un técnico del sistema.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0005">
@@ -1424,7 +1424,7 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1451,7 +1451,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0001">
 <rem:name>
-Asignar tienda a <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+Asignar tienda a comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1461,7 +1461,7 @@ Asignar tienda a <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1478,11 +1478,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar una tienda particular a un <rem:ref oid="GLO-0019">comercial</rem:ref> concreto.</rem:triggeringEvent>
+la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar una tienda particular a un comercial concreto.</rem:triggeringEvent>
 <rem:precondition>
-Existen tiendas sin visitar a las que se le pueden asignar un <rem:ref oid="GLO-0019">comercial</rem:ref>.</rem:precondition>
+Existen tiendas sin visitar a las que se le pueden asignar un comercial.</rem:precondition>
 <rem:postcondition>
-El sistema ha registrado el <rem:ref oid="GLO-0019">comercial</rem:ref> a una tienda.</rem:postcondition>
+El sistema ha registrado el comercial a una tienda.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1490,7 +1490,7 @@ El sistema ha registrado el <rem:ref oid="GLO-0019">comercial</rem:ref> a una ti
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-solicita asignar una tienda particular a un <rem:ref oid="GLO-0019">comercial</rem:ref> concreto.</rem:description>
+solicita asignar una tienda particular a un comercial concreto.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1562,7 +1562,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-asigna el conjunto de tiendas a visitar al <rem:ref oid="GLO-0019">comercial</rem:ref> seleccionado.</rem:description>
+asigna el conjunto de tiendas a visitar al comercial seleccionado.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1571,7 +1571,7 @@ Ninguno</rem:comments>
 <rem:number>10</rem:number>
 <rem:systemAction>
 <rem:description>
-registra el <rem:ref oid="GLO-0019">comercial</rem:ref> a una tienda.</rem:description>
+registra el comercial a una tienda.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1590,7 +1590,7 @@ Asignar venta a tienda</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1728,7 +1728,7 @@ Asignar pago a venta</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1820,7 +1820,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0004">
 <rem:name>
-Asignar <rem:ref oid="GLO-0021">técnico</rem:ref> a venta</rem:name>
+Asignar técnico a venta</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1830,7 +1830,7 @@ Asignar <rem:ref oid="GLO-0021">técnico</rem:ref> a venta</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1847,11 +1847,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar un <rem:ref oid="GLO-0021">técnico</rem:ref> concreto para la instalación de la máquina asociada a una venta.</rem:triggeringEvent>
+la <rem:ref oid="GLO-0022">central</rem:ref> solicita asignar un técnico concreto para la instalación de la máquina asociada a una venta.</rem:triggeringEvent>
 <rem:precondition>
-Existen ventas pendientes de asignarle un <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:precondition>
+Existen ventas pendientes de asignarle un técnico.</rem:precondition>
 <rem:postcondition>
-El sistema ha registrado el <rem:ref oid="GLO-0021">técnico</rem:ref> a una venta.</rem:postcondition>
+El sistema ha registrado el técnico a una venta.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1859,7 +1859,7 @@ El sistema ha registrado el <rem:ref oid="GLO-0021">técnico</rem:ref> a una vent
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-solicita asignar un <rem:ref oid="GLO-0021">técnico</rem:ref> concreto para la instalación de la máquina asociada a una venta.</rem:description>
+solicita asignar un técnico concreto para la instalación de la máquina asociada a una venta.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1868,7 +1868,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-busca la venta a asignarle el <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:description>
+busca la venta a asignarle el técnico.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1886,7 +1886,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-pulsa sobre el botón para asignar <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:description>
+pulsa sobre el botón para asignar técnico.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1895,7 +1895,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita introducir los datos del <rem:ref oid="GLO-0021">técnico</rem:ref>.</rem:description>
+solicita introducir los datos del técnico.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1922,7 +1922,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-selecciona el <rem:ref oid="GLO-0021">técnico</rem:ref> a asignarle la venta.</rem:description>
+selecciona el técnico a asignarle la venta.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1931,11 +1931,167 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:systemAction>
 <rem:description>
-registra el <rem:ref oid="GLO-0021">técnico</rem:ref> a una venta.</rem:description>
+registra el técnico a una venta.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0005">
+<rem:name>
+Asignar incidencia a venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+exista una incidencia en algunos de los productos del sistema.</rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0006">
+<rem:name>
+Asignar producto a <rem:ref oid="GLO-0023">catálogo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0007">
+<rem:name>
+Asignar <rem:ref oid="GLO-0023">catálogo</rem:ref> a almacén</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0008">
+<rem:name>
+Asignar cliente a tienda</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
 </rem:useCase>
 </rem:section>
 </rem:section>
@@ -1986,7 +2142,7 @@ Pago</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2018,7 +2174,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0002">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2028,7 +2184,7 @@ Ninguno</rem:comments>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2060,7 +2216,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0003">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2070,7 +2226,7 @@ Ninguno</rem:comments>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2112,7 +2268,7 @@ Incidencia</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2154,7 +2310,7 @@ Producto</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2196,7 +2352,7 @@ Tienda</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2228,7 +2384,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0007">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2238,7 +2394,7 @@ Ninguno</rem:comments>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2280,7 +2436,7 @@ Ninguno</rem:comments>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2322,7 +2478,7 @@ Almacén</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2364,7 +2520,7 @@ Venta</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2424,7 +2580,7 @@ No instalación hasta el pago</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2456,7 +2612,7 @@ No solucionar incidencias pasada la <rem:ref oid="GLO-0028">garantía</rem:ref></
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2488,7 +2644,7 @@ No borrar pagos</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2510,7 +2666,7 @@ Los pagos no podrán ser borrados bajo ninguna circunstancia.</rem:description>
 <rem:constraintRequirement
  oid = "CRQ-0004">
 <rem:name>
-No asignación <rem:ref oid="GLO-0021">técnico</rem:ref>-máquina sin stock</rem:name>
+No asignación técnico-máquina sin stock</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2520,7 +2676,7 @@ No asignación <rem:ref oid="GLO-0021">técnico</rem:ref>-máquina sin stock</rem:n
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2537,7 +2693,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-No se podrá asignar la instalación de una máquina a un <rem:ref oid="GLO-0021">técnico</rem:ref> hasta que el producto esté en stock.</rem:description>
+No se podrá asignar la instalación de una máquina a un técnico hasta que el producto esté en stock.</rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section
@@ -2560,7 +2716,7 @@ Ninguno</rem:comments>
 <rem:functionalRequirement
  oid = "FRQ-0001">
 <rem:name>
-Notificar al <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+Notificar al comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2570,7 +2726,7 @@ Notificar al <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2587,12 +2743,12 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-enviar una notificación al <rem:ref oid="GLO-0019">comercial</rem:ref> indicando las tiendas que le han sido asignadas.</rem:description>
+enviar una notificación al comercial indicando las tiendas que le han sido asignadas.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0002">
 <rem:name>
-Notificar al <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
+Notificar al técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2602,7 +2758,7 @@ Notificar al <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2619,7 +2775,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-enviar una notificación al <rem:ref oid="GLO-0021">técnico</rem:ref> indicando las tiendas que le han sido asignadas para realizar una instalación.</rem:description>
+enviar una notificación al técnico indicando las tiendas que le han sido asignadas para realizar una instalación.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0003">
@@ -2634,7 +2790,7 @@ Generar facturas</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2702,7 +2858,7 @@ Manejar excepciones del sistema</rem:name>
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2734,7 +2890,7 @@ Disponibilidad del sistema</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2766,7 +2922,7 @@ Recuperación en caso de caída</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2816,7 +2972,7 @@ Interfaz de usuario accesible</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2848,7 +3004,7 @@ Menú de navegación siempre visible</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2898,7 +3054,7 @@ Estándares del código</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2948,7 +3104,7 @@ Tiempo de consulta a la BD</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3016,7 +3172,7 @@ Inicio de sesión</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3048,7 +3204,7 @@ Evitar código SQL malintencionado</rem:name>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3117,7 +3273,7 @@ Compatibilidad con navegadores</rem:name>
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3149,7 +3305,7 @@ Compatibilidad con móviles</rem:name>
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3181,7 +3337,7 @@ Gestión de la base de datos</rem:name>
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3257,6 +3413,10 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0002"/>
 <rem:th oid ="UC-0003"/>
 <rem:th oid ="UC-0004"/>
+<rem:th oid ="UC-0005"/>
+<rem:th oid ="UC-0006"/>
+<rem:th oid ="UC-0007"/>
+<rem:th oid ="UC-0008"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0007"/>
@@ -3264,9 +3424,17 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3278,11 +3446,19 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0011"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -3292,6 +3468,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0013"/>
@@ -3299,10 +3479,18 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0014"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3329,10 +3517,18 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0002"/>
 <rem:th oid ="UC-0003"/>
 <rem:th oid ="UC-0004"/>
+<rem:th oid ="UC-0005"/>
+<rem:th oid ="UC-0006"/>
+<rem:th oid ="UC-0007"/>
+<rem:th oid ="UC-0008"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="FRQ-0001"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3343,12 +3539,20 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="FRQ-0003"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 </rem:traceabilityMatrix>
@@ -3373,12 +3577,20 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0002"/>
 <rem:th oid ="UC-0003"/>
 <rem:th oid ="UC-0004"/>
+<rem:th oid ="UC-0005"/>
+<rem:th oid ="UC-0006"/>
+<rem:th oid ="UC-0007"/>
+<rem:th oid ="UC-0008"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0001"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -3387,6 +3599,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0003"/>
@@ -3394,9 +3610,17 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3408,6 +3632,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0006"/>
@@ -3415,10 +3643,18 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0007"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3429,11 +3665,19 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0009"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -3443,6 +3687,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 </rem:traceabilityMatrix>
 <rem:traceabilityMatrix
@@ -3466,6 +3714,10 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0002"/>
 <rem:th oid ="UC-0003"/>
 <rem:th oid ="UC-0004"/>
+<rem:th oid ="UC-0005"/>
+<rem:th oid ="UC-0006"/>
+<rem:th oid ="UC-0007"/>
+<rem:th oid ="UC-0008"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0001"/>
@@ -3473,9 +3725,17 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3487,6 +3747,10 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0004"/>
@@ -3494,6 +3758,10 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0005"/>
@@ -3501,6 +3769,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0006"/>
@@ -3508,6 +3780,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0007"/>
@@ -3515,6 +3791,10 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 </rem:traceabilityMatrix>
 </rem:section>
@@ -3561,8 +3841,8 @@ Ninguno</rem:comments>
 <rem:minute>30</rem:minute>
 </rem:time>
 <rem:place>Espartinas</rem:place>
-<rem:results>Primera toma de contacto entre el <rem:ref oid="GLO-0020">cliente</rem:ref> y los desarrolladores.<br/><br/>Como primer punto de la mañana, el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el <rem:ref oid="GLO-0020">cliente</rem:ref> explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
-	<rem:attenders stakeholders ="STK-0002 STK-0001 STK-0003 "/>
+<rem:results>Primera toma de contacto entre el cliente y los desarrolladores.<br/><br/>Como primer punto de la mañana, el cliente explicó el procedimiento actual del comercio y su forma de trabajar en la actualidad.<br/><br/>Posteriormente se trataron los objetivos actuales del negocio y el cliente explicó los distintos actores que participan en el negocio de forma directa e indirecta.<br/><br/>Finalmente se pusieron en común los objetivos que debía satisfacer el <rem:ref oid="GLO-0024">sistema informático</rem:ref> a desarrollar.<br/><br/>Duración de la reunión: 90 minutos.</rem:results>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
 </rem:meeting>
 <rem:meeting
  oid = "MET-0002">
@@ -3590,7 +3870,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Espartinas</rem:place>
 <rem:results>En primer lugar, se trataron los aspectos técnicos del sistema a desarrollar, así como el soporte donde se visualizará el sistema: un ordenador.<br/><br/>En segundo lugar, se especificaron los distintos apartados y secciones que las pantallas del sistema deberían contener, así como la información requerida por los distintos actores del sistema.<br/><br/>Duración de la reunión: 60 minutos.</rem:results>
-	<rem:attenders stakeholders ="STK-0002 STK-0001 STK-0003 "/>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 "/>
 </rem:meeting>
 </rem:section>
 <rem:section
@@ -3763,7 +4043,7 @@ Introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El siguiente documento de carácter <rem:ref oid="GLO-0021">técnico</rem:ref> contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</rem:text>
+<rem:text>El siguiente documento de carácter técnico contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0053">
@@ -3832,7 +4112,7 @@ Objetivos</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Una vez desarrollado el sistema, el <rem:ref oid="GLO-0020">cliente</rem:ref> contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</rem:text>
+<rem:text>Una vez desarrollado el sistema, el cliente contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -4000,7 +4280,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0047">
 <rem:name>
-<rem:ref oid="GLO-0020">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4012,12 +4292,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><rem:ref oid="GLO-0020">Cliente</rem:ref>: Es una de las clases hijas del tipo Persona, este actor representa a un <rem:ref oid="GLO-0020">cliente</rem:ref> en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el actor <rem:ref oid="GLO-0020">Cliente</rem:ref> es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</rem:text>
+<rem:text>Cliente: Es una de las clases hijas del tipo Persona, este actor representa a un cliente en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el actor Cliente es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0048">
 <rem:name>
-<rem:ref oid="GLO-0019">Comercial</rem:ref></rem:name>
+Comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4029,12 +4309,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><rem:ref oid="GLO-0019">Comercial</rem:ref>: Es otro de las clases hijas del tipo Persona. En este caso el tipo <rem:ref oid="GLO-0019">Comercial</rem:ref> representa a un trabajador de la empresa que realiza el papel de visitar tiendas e intentar conseguir alguna venta. En consecuencia a las funciones mencionadas anteriormente que realiza el papel de <rem:ref oid="GLO-0019">comercial</rem:ref>, derivan las dos relaciones naturales fruto de su función: Tienda y Venta. Las tiendas corresponden a las tiendas asignada a visitar o ya visitadas, y el tipo Venta a las ventas realizadas por el <rem:ref oid="GLO-0019">comercial</rem:ref> en esa tienda.</rem:text>
+<rem:text>Comercial: Es otro de las clases hijas del tipo Persona. En este caso el tipo Comercial representa a un trabajador de la empresa que realiza el papel de visitar tiendas e intentar conseguir alguna venta. En consecuencia a las funciones mencionadas anteriormente que realiza el papel de comercial, derivan las dos relaciones naturales fruto de su función: Tienda y Venta. Las tiendas corresponden a las tiendas asignada a visitar o ya visitadas, y el tipo Venta a las ventas realizadas por el comercial en esa tienda.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0049">
 <rem:name>
-<rem:ref oid="GLO-0021">Técnico</rem:ref></rem:name>
+Técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4046,7 +4326,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><rem:ref oid="GLO-0021">Técnico</rem:ref>: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de <rem:ref oid="GLO-0021">Técnico</rem:ref>, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un <rem:ref oid="GLO-0020">cliente</rem:ref> se asocia a la instalación de máquinas definidas en una venta.</rem:text>
+<rem:text>Técnico: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de Técnico, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un cliente se asocia a la instalación de máquinas definidas en una venta.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0050">
@@ -4063,7 +4343,7 @@ Tienda</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: <rem:ref oid="GLO-0020">Cliente</rem:ref>, <rem:ref oid="GLO-0019">Comercial</rem:ref> y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</rem:text>
+<rem:text>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: Cliente, Comercial y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0051">
@@ -4080,7 +4360,7 @@ Venta</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Venta: Es el eje <rem:ref oid="GLO-0022">central</rem:ref> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con <rem:ref oid="GLO-0021">Técnico</rem:ref>, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con Incidencia, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con <rem:ref oid="GLO-0019">Comercial</rem:ref>, aquí se indica qué <rem:ref oid="GLO-0019">comercial</rem:ref> a obtenido esa misma venta.</rem:text>
+<rem:text>Venta: Es el eje <rem:ref oid="GLO-0022">central</rem:ref> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con Técnico, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con Incidencia, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con Comercial, aquí se indica qué comercial a obtenido esa misma venta.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0052">
@@ -4097,7 +4377,7 @@ Pago</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el <rem:ref oid="GLO-0020">cliente</rem:ref> a abonado la cantidad monetaria de la venta.</rem:text>
+<rem:text>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el cliente a abonado la cantidad monetaria de la venta.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -4350,7 +4630,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0037">
 <rem:name>
-Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
+Seleccionar comercial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4362,7 +4642,7 @@ Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Seleccionar <rem:ref oid="GLO-0019">comercial</rem:ref>: Se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</rem:text>
+<rem:text>Seleccionar comercial: Se mostrará una tabla con las distintos comerciales disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles las tiendas indicadas con anterioridad.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0038">
@@ -4413,7 +4693,7 @@ Listado de ventas</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o <rem:ref oid="GLO-0021">técnico</rem:ref>, dependiendo de la acción que quiera realizar la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
+<rem:text>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o técnico, dependiendo de la acción que quiera realizar la <rem:ref oid="GLO-0022">central</rem:ref>.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0041">
@@ -4435,7 +4715,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0042">
 <rem:name>
-Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
+Seleccionar técnico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4447,7 +4727,7 @@ Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Seleccionar <rem:ref oid="GLO-0021">técnico</rem:ref>: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</rem:text>
+<rem:text>Seleccionar técnico: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -4482,19 +4762,28 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "OBJ-0012"  target = "UC-0002" >
+<rem:trace source = "FRQ-0001"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0002"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0003"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0007"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0012"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "OBJ-0014"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0001"  target = "UC-0001" >
+<rem:trace source = "IRQ-0001"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0001"  target = "UC-0003" >
+<rem:trace source = "IRQ-0002"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0002"  target = "UC-0002" >
@@ -4503,76 +4792,22 @@ Ninguno
 <rem:trace source = "IRQ-0002"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0003"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "IRQ-0002"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0006"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0002"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "IRQ-0005"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0003" >
+<rem:trace source = "IRQ-0006"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0003" >
+<rem:trace source = "IRQ-0006"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0013"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0011"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0011"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "UC-0002" >
+<rem:trace source = "IRQ-0007"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0008"  target = "UC-0001" >
@@ -4587,6 +4822,9 @@ Ninguno
 <rem:trace source = "IRQ-0010"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "IRQ-0010"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "CRQ-0001"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
@@ -4596,34 +4834,55 @@ Ninguno
 <rem:trace source = "CRQ-0004"  target = "UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0010"  target = "UC-0004" >
+<rem:trace source = "CRQ-0005"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "UC-0001" >
+<rem:trace source = "CRQ-0005"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "UC-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0010"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0011"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0011"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0013"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0001">
 <rem:name>
@@ -4641,48 +4900,6 @@ Real</rem:name>
 Predefined OCL type</rem:comments>
 <rem:description>
 Real numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Alphanumeric strings</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -4729,16 +4946,76 @@ Natural numbers</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
@@ -4749,21 +5026,21 @@ Natural numbers</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
@@ -4773,58 +5050,19 @@ Natural numbers</rem:description>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
 <![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -4837,6 +5075,18 @@ Natural numbers</rem:description>
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
@@ -4857,35 +5107,62 @@ Natural numbers</rem:description>
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
 <rem:name>Redundancia</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
@@ -4893,26 +5170,29 @@ Natural numbers</rem:description>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
@@ -4932,23 +5212,23 @@ Natural numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
@@ -4962,14 +5242,14 @@ Natural numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
