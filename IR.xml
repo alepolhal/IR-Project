@@ -71,6 +71,94 @@ Ninguno</rem:comments>
 <rem:text></rem:text>
 </rem:glossaryItem>
 <rem:section
+ oid = "SEC-0001">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:section
+ oid = "SEC-0002">
+<rem:name>
+Alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0017">
+<rem:name>
+Alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando así la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene ninguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0003">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>10</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0015">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>11</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El proyecto pretende solventar las necesidades de nuestro cliente, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <rem:ref oid="GLO-0024">sistema informático</rem:ref> todo el proceso de venta, gestión y comunicación con los distintos actores participantes en el sistema.<br/><br/>El proyecto se centrará en la creación de un sistema informática. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asociaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del cliente mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
  oid = "SEC-0049">
 <rem:name>
 Participantes y Organizaciones</rem:name>
@@ -86,7 +174,7 @@ Participantes y Organizaciones</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>1 </rem:number>
+<rem:number>2 </rem:number>
 <rem:section
  oid = "SEC-0050">
 <rem:name>
@@ -103,7 +191,7 @@ Participantes</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>1.1 </rem:number>
+<rem:number>2.1 </rem:number>
 <rem:stakeholder
  oid = "STK-0001">
 <rem:name>
@@ -179,7 +267,7 @@ Organizaciones</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>1.2 </rem:number>
+<rem:number>2.2 </rem:number>
 <rem:organization
  oid = "ORG-0002">
 <rem:name>
@@ -219,111 +307,6 @@ Ninguno</rem:comments>
 <rem:telephone></rem:telephone>
 <rem:fax></rem:fax>
 </rem:organization>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0001">
-<rem:name>
-Introducción</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>2 </rem:number>
-<rem:paragraph
- oid = "PRG-0017">
-<rem:name>
-Introducción</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.<br/><br/>Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. <br/><br/>Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena gestión de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando así la pérdida de capital a consecuencia de la mala gestión de recurso humano. <br/><br/>Como empresa antigua, no tiene ninguno de estos mecanismos de gestión de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.</rem:text>
-</rem:paragraph>
-<rem:section
- oid = "SEC-0002">
-<rem:name>
-Alcance</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>2.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0016">
-<rem:name>
-Alcance</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>El proyecto pretende solventar las necesidades de nuestro cliente, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <rem:ref oid="GLO-0024">sistema informático</rem:ref> todo el proceso de venta, gestión y comunicación con los distintos actores participantes en el sistema.</rem:text>
-</rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0003">
-<rem:name>
-Objetivos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>10</rem:month>
-<rem:day>27</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>2.2 </rem:number>
-<rem:paragraph
- oid = "PRG-0015">
-<rem:name>
-Objetivos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>El proyecto se centrará en la creación de un sistema ERP. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.<br/><br/>Con ello obtendremos una serie de beneficios, como son:<br/><br/>- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.<br/><br/>- Reducir costes a través de la creación de rutas efectivas.<br/><br/>- Crear asociaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.<br/><br/>- Aumentar la satisfacción del cliente mediante la creación de un sistema que permita gestionar cómodamente la <rem:ref oid="GLO-0028">garantía</rem:ref> e incidencias.</rem:text>
-</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
@@ -890,24 +873,74 @@ Objetivos de negocio</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0013">
+<rem:glossaryItem
+ oid = "GLO-0055">
 <rem:name>
-Objetivos de negocio</rem:name>
+<rem:ref oid="GLO-0055">Aumento de la eficiencia general de la empresa</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>- Aumento de la eficiencia general de la empresa: Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc.<br/><br/>- Aumento de la capacidad operativa: Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.<br/><br/>- Control y trazabilidad: El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese cliente? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?<br/><br/>- Mayor rentabilidad: Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
-</rem:paragraph>
+<rem:text>Al tener todas las operaciones de la empresa contenidas en un mismo sistema, podemos obtener importantes mejoras en eficiencia automatizando tareas administrativas. Los procesos operativos de cualquier empresa llevan siempre asociados la generación de documentos como albaranes, pedidos, facturas, etc. </rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0056">
+<rem:name>
+<rem:ref oid="GLO-0056">Aumento de la capacidad operativa</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Una mejora en la eficiencia puede ser utilizada para atender a más clientes, fabricar más productos o procesar más facturas. Esto depende de la estrategia u orientación de la empresa, pero es siempre un paso imprescindible para todas las organizaciones que quieren crecer.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0057">
+<rem:name>
+<rem:ref oid="GLO-0057">Control y trazabilidad</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El sistema aportará una mayor trazabilidad sobre todos los recursos disponibles, pudiendo responder a las siguientes preguntas de forma rápida y eficiente: ¿Cuándo se vendió este producto a ese cliente? ¿Qué transportista se encargó de llevarlo? ¿Cuántas unidades me quedan de este producto? ¿Cuántas facturas no han sido pagadas este mes dentro de plazo?</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0058">
+<rem:name>
+<rem:ref oid="GLO-0058">Mayor rentabilidad</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Teniendo un control de todos los recursos que se han vendido o gastado, podemos tomar decisiones en base a esas estadísticas que nos permitan aumentar la rentabilidad.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0024">
@@ -926,27 +959,10 @@ Modelos de procesos de negocio a implementar</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.2 </rem:number>
-<rem:section
- oid = "SEC-0025">
-<rem:name>
-Descripción de actores de negocio a implementar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>5.2.1 </rem:number>
 <rem:paragraph
  oid = "PRG-0026">
 <rem:name>
-Descripción de actores de negocio a implementar</rem:name>
+Modelos de procesos de negocio a implementar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -960,42 +976,6 @@ Descripción de actores de negocio a implementar</rem:name>
 Ninguno</rem:comments>
 <rem:text>No procede</rem:text>
 </rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0026">
-<rem:name>
-Descripción de procesos de negocio a implementar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>5.2.2 </rem:number>
-<rem:paragraph
- oid = "PRG-0025">
-<rem:name>
-Descripción de procesos de negocio a implementar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
-</rem:paragraph>
-</rem:section>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1030,8 +1010,42 @@ Descripción de los subsistemas del sistema a desarrollar</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En nuestros casos de usos existen 2 subsistemas a desarrollar:<br/><br/>El primer subsistema a desarrollar engloba la funcionalidad que consisten en la gestión de visitas a tiendas por parte de los comerciales, en este subsistema está compuesto por el caso de uso: &quot;Asignar tienda a comercial&quot;.<br/><br/>El segundo subsistema a desarrollar engloba la funcionalidad de la gestión del proceso completo de venta, que va desde que el comercial obtiene la venta hasta que se realiza la instalación pasando por el pago. En el subsistema interviene los siguientes casos de usos: &quot;Asignar venta a tienda&quot;, &quot;Asignar pago a venta&quot; y &quot;Asignar técnico a venta&quot;.</rem:text>
+<rem:text>En nuestros casos de usos existen 2 subsistemas a desarrollar:</rem:text>
 </rem:paragraph>
+<rem:glossaryItem
+ oid = "GLO-0059">
+<rem:name>
+<rem:ref oid="GLO-0059">Gestión de visitas a tiendas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El primer subsistema a desarrollar engloba la funcionalidad que consisten en la <rem:ref oid="GLO-0059">gestión de visitas a tiendas</rem:ref> por parte de los comerciales, en este subsistema está compuesto por el caso de uso: &quot;Asignar tienda a comercial&quot;.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0060">
+<rem:name>
+<rem:ref oid="GLO-0060">Gestión de venta</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El segundo subsistema a desarrollar engloba la funcionalidad de la gestión del proceso completo de venta, que va desde que el comercial obtiene la venta hasta que se realiza la instalación pasando por el pago. En el subsistema interviene los siguientes casos de usos: &quot;Asignar venta a tienda&quot;, &quot;Asignar pago a venta&quot; y &quot;Asignar técnico a venta&quot;.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0028">
@@ -1234,34 +1248,6 @@ Ninguno</rem:comments>
 </rem:stability>
 <rem:description>
 mostrar un listado de los empleados y las operaciones relacionadas con ellos.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0014">
-<rem:name>
-Disminuir gasto de gasolina</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>11</rem:month>
-<rem:day>22</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-permitir la disminución de gastos generados por los trayectos realizados por técnicos y comerciales.</rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -2743,7 +2729,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-enviar una notificación al comercial indicando las tiendas que le han sido asignadas.</rem:description>
+registra una notificación al comercial que se le mostrará cuando alguna tienda se le haya sido asignada.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0002">
@@ -2775,7 +2761,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-enviar una notificación al técnico indicando las tiendas que le han sido asignadas para realizar una instalación.</rem:description>
+registrará una notificación al técnico que se le mostrará cuando alguna tienda se le haya sido asignada para realizar una instalación.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0003">
@@ -3041,38 +3027,23 @@ Requisitos de mantenibilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>7.4.3 </rem:number>
-<rem:nonFunctionalRequirement
- oid = "NFR-0007">
+<rem:paragraph
+ oid = "PRG-0063">
 <rem:name>
-Estándares del código</rem:name>
+Requisitos de mantenibilidad del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2016</rem:year>
 <rem:month>12</rem:month>
-<rem:day>2</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-seguir los estándares del lenguaje con el que es desarrollado.</rem:description>
-</rem:nonFunctionalRequirement>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0042">
@@ -3091,38 +3062,23 @@ Requisitos de eficiencia del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>7.4.4 </rem:number>
-<rem:nonFunctionalRequirement
- oid = "NFR-0008">
+<rem:paragraph
+ oid = "PRG-0061">
 <rem:name>
-Tiempo de consulta a la BD</rem:name>
+Requisitos de eficiencia del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2016</rem:year>
 <rem:month>12</rem:month>
-<rem:day>2</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-responder a cualquier consulta de la base de datos en menos de 3,5 segundos.</rem:description>
-</rem:nonFunctionalRequirement>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0043">
@@ -3141,6 +3097,23 @@ Requisitos de portabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>7.4.5 </rem:number>
+<rem:paragraph
+ oid = "PRG-0062">
+<rem:name>
+Requisitos de portabilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2016</rem:year>
+<rem:month>12</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0044">
@@ -3190,38 +3163,6 @@ Ninguno</rem:comments>
 </rem:stability>
 <rem:description>
 requerir el inicio de sesión para realizar una acción.</rem:description>
-</rem:nonFunctionalRequirement>
-<rem:nonFunctionalRequirement
- oid = "NFR-0009">
-<rem:name>
-Evitar código SQL malintencionado</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2016</rem:year>
-<rem:month>12</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-controlar la secuencia SQL enviada para evitar peticiones no deseadas y ataques a la BD.</rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
@@ -3435,7 +3376,7 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3475,17 +3416,6 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="OBJ-0013"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="OBJ-0014"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3736,7 +3666,7 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -4777,9 +4707,6 @@ Ninguno
 <rem:trace source = "OBJ-0012"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0014"  target = "UC-0001" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "IRQ-0001"  target = "UC-0003" >
 <rem:isChecked/>
 </rem:trace>
@@ -4829,6 +4756,12 @@ Ninguno
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0003"  target = "UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0008"  target = "UC-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0004"  target = "UC-0004" >
