@@ -598,6 +598,22 @@ Ninguno</td>
 </tr>
 </table>
 <p />
+<a name="GRF-0007" />
+<p align="center">
+<img src=".\images\Central.jpg" title=".\images\Central.jpg" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Fotos de la central del comercio</p>
+<a name="GRF-0008" />
+<p align="center">
+<img src=".\images\Almacen.jpg" title=".\images\Almacen.jpg" />
+</p>
+<p align="center">
+<b>Figura 2</b>:
+                
+Foto del almacen del comercio</p>
 <a name="SEC-0004" />
 <h1 align="left">3 
 Información sobre el dominio del problema</h1><a name="SEC-0005" />
@@ -760,13 +776,22 @@ Modelos de procesos de negocio a implementar</h2><a name="PRG-0026" />
 <a name="SEC-0027" />
 <h1 align="left">6 
 Descripción de los subsistemas del sistema a desarrollar</h1><a name="PRG-0053" />
-<p>En nuestros casos de usos existen 2 subsistemas a desarrollar:</p>
+<p>En nuestros casos de usos existen 5 subsistemas a desarrollar:</p>
 <a name="GLO-0059" />
 <p align="left">
 <b> Gestión de visitas a tiendas:</b>El primer subsistema a desarrollar engloba la funcionalidad que consisten en la <a href="#GLO-0059" title="El primer subsistema a desarrollar engloba la funcionalidad que consisten en la gestión de visitas a tiendas por parte de los comerciales, en este subsistema está compuesto por el caso de uso: &quot;Asignar tienda a comercial&quot;.">gestión de visitas a tiendas</a> por parte de los comerciales, en este subsistema está compuesto por el caso de uso: "Asignar tienda a comercial".</p>
 <a name="GLO-0060" />
 <p align="left">
-<b> Gestión de venta:</b>El segundo subsistema a desarrollar engloba la funcionalidad de la <a href="#GLO-0067" title="Conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.">gestión</a> del proceso completo de venta, que va desde que el comercial obtiene la venta hasta que se realiza la instalación pasando por el pago. En el subsistema interviene los siguientes casos de usos: "Asignar venta a tienda", "Asignar pago a venta" y "Asignar técnico a venta".</p>
+<b> Gestión de ventas:</b>El segundo subsistema a desarrollar engloba la funcionalidad de la <a href="#GLO-0067" title="Conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.">gestión</a> del proceso completo de venta, que va desde que el comercial obtiene la venta hasta que se realiza la instalación pasando por el pago. En el subsistema interviene los siguientes casos de usos: "Asignar venta a tienda", "Asignar pago a venta" y "Asignar técnico a venta".</p>
+<a name="GLO-0069" />
+<p align="left">
+<b> Gestión de garantías:</b>El tercer subsistema a desarrollar engloba la función de garantías e incidencias, en las que se podrán listar todas las incidencias, y sobre todo crearlas mediante el caso de uso "Asignar <a href="#GLO-0065" title="Problema o falla relacionado con algunos de los productos.">incidencia</a> a venta"</p>
+<a name="GLO-0070" />
+<p align="left">
+<b> Gestión de catálogos:</b>El cuarto subsistema a desarrollar engloba la funcionalidad de los catálogos, a los cuales son asignados productos, y cada <a href="#GLO-0023" title="Listado de productos que se ofertan en formato papel o digital que el comercial entregará al cliente.">catálogo</a> está asignado a un almacén, en este subsistema intervienen 2 casos de usos: "Asignar producto a catálogo" y "Asignar <a href="#GLO-0023" title="Listado de productos que se ofertan en formato papel o digital que el comercial entregará al cliente.">catálogo</a> a almacén".</p>
+<a name="GLO-0071" />
+<p align="left">
+<b> Gestión de clientes:</b>El quinto subsistema a desarrollar es el que engloba la funcionalidad de <a href="#GLO-0071" title="El quinto subsistema a desarrollar es el que engloba la funcionalidad de gestión de clientes, en los que podemos asociar a las tiendas los clientes mediante el caso de uso &quot;Asignar cliente a tienda&quot;.">gestión de clientes</a>, en los que podemos asociar a las tiendas los clientes mediante el caso de uso "Asignar cliente a tienda".</p>
 <a name="SEC-0028" />
 <h1 align="left">7  Catálogo de requisitos a desarrollar</h1><a name="SEC-0029" />
 <h2 align="left">7.1 
@@ -1553,7 +1578,8 @@ Ninguno</td>
 <p />
 <a name="SEC-0033" />
 <h3 align="left">7.2.3 
-Especificación de casos de uso del sistema</h3><a name="UC-0001" />
+Especificación de casos de uso del sistema</h3><a name="SEC-0069" />
+<h4 align="left">7.2.3.1  Gestión de visitas a tiendas</h4><a name="UC-0001" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0001</th>
@@ -1795,7 +1821,8 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0002" />
+<a name="SEC-0070" />
+<h4 align="left">7.2.3.2  Gestión de ventas</h4><a name="UC-0002" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0002</th>
@@ -2467,7 +2494,8 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0005" />
+<a name="SEC-0071" />
+<h4 align="left">7.2.3.3  Gestión de garantías</h4><a name="UC-0005" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0005</th>
@@ -2611,7 +2639,8 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0006" />
+<a name="SEC-0072" />
+<h4 align="left">7.2.3.4  Gestión de catálogos</h4><a name="UC-0006" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0006</th>
@@ -2902,7 +2931,8 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0008" />
+<a name="SEC-0073" />
+<h4 align="left">7.2.3.5  Gestión de clientes</h4><a name="UC-0008" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0008</th>
@@ -3219,6 +3249,11 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#UC-0003" title="Asignar pago a venta">
+                                [UC-0003] 
+Asignar pago a venta</a>
+</li>
+<li>
 <a href="#UC-0001" title="Asignar tienda a comercial">
                                 [UC-0001] 
 Asignar tienda a comercial</a>
@@ -3227,11 +3262,6 @@ Asignar tienda a comercial</a>
 <a href="#UC-0002" title="Asignar venta a tienda">
                                 [UC-0002] 
 Asignar venta a tienda</a>
-</li>
-<li>
-<a href="#UC-0003" title="Asignar pago a venta">
-                                [UC-0003] 
-Asignar pago a venta</a>
 </li>
 <li>
 <a href="#UC-0004" title="Asignar técnico a venta">
@@ -3609,14 +3639,14 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#UC-0002" title="Asignar venta a tienda">
-                                [UC-0002] 
-Asignar venta a tienda</a>
-</li>
-<li>
 <a href="#UC-0006" title="Asignar producto a catálogo">
                                 [UC-0006] 
 Asignar producto a catálogo</a>
+</li>
+<li>
+<a href="#UC-0002" title="Asignar venta a tienda">
+                                [UC-0002] 
+Asignar venta a tienda</a>
 </li>
 </td>
 </tr>
@@ -3737,14 +3767,14 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#UC-0002" title="Asignar venta a tienda">
-                                [UC-0002] 
-Asignar venta a tienda</a>
-</li>
-<li>
 <a href="#UC-0001" title="Asignar tienda a comercial">
                                 [UC-0001] 
 Asignar tienda a comercial</a>
+</li>
+<li>
+<a href="#UC-0002" title="Asignar venta a tienda">
+                                [UC-0002] 
+Asignar venta a tienda</a>
 </li>
 <li>
 <a href="#UC-0008" title="Asignar cliente a tienda">
@@ -3999,14 +4029,14 @@ Juan Polvillo Luque</a>
 Asignar tienda a comercial</a>
 </li>
 <li>
-<a href="#UC-0007" title="Asignar catálogo a almacén">
-                                [UC-0007] 
-Asignar catálogo a almacén</a>
-</li>
-<li>
 <a href="#UC-0006" title="Asignar producto a catálogo">
                                 [UC-0006] 
 Asignar producto a catálogo</a>
+</li>
+<li>
+<a href="#UC-0007" title="Asignar catálogo a almacén">
+                                [UC-0007] 
+Asignar catálogo a almacén</a>
 </li>
 </td>
 </tr>
@@ -4255,16 +4285,6 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#UC-0002" title="Asignar venta a tienda">
-                                [UC-0002] 
-Asignar venta a tienda</a>
-</li>
-<li>
-<a href="#UC-0004" title="Asignar técnico a venta">
-                                [UC-0004] 
-Asignar técnico a venta</a>
-</li>
-<li>
 <a href="#UC-0003" title="Asignar pago a venta">
                                 [UC-0003] 
 Asignar pago a venta</a>
@@ -4273,6 +4293,16 @@ Asignar pago a venta</a>
 <a href="#UC-0005" title="Asignar incidencia a venta">
                                 [UC-0005] 
 Asignar incidencia a venta</a>
+</li>
+<li>
+<a href="#UC-0002" title="Asignar venta a tienda">
+                                [UC-0002] 
+Asignar venta a tienda</a>
+</li>
+<li>
+<a href="#UC-0004" title="Asignar técnico a venta">
+                                [UC-0004] 
+Asignar técnico a venta</a>
 </li>
 </td>
 </tr>
@@ -4395,14 +4425,14 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#UC-0004" title="Asignar técnico a venta">
-                                [UC-0004] 
-Asignar técnico a venta</a>
-</li>
-<li>
 <a href="#UC-0005" title="Asignar incidencia a venta">
                                 [UC-0005] 
 Asignar incidencia a venta</a>
+</li>
+<li>
+<a href="#UC-0004" title="Asignar técnico a venta">
+                                [UC-0004] 
+Asignar técnico a venta</a>
 </li>
 </td>
 </tr>
@@ -5574,6 +5604,16 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
+<a href="#UC-0004" title="Asignar técnico a venta">
+                                [UC-0004] 
+Asignar técnico a venta</a>
+</li>
+<li>
+<a href="#UC-0002" title="Asignar venta a tienda">
+                                [UC-0002] 
+Asignar venta a tienda</a>
+</li>
+<li>
 <a href="#UC-0001" title="Asignar tienda a comercial">
                                 [UC-0001] 
 Asignar tienda a comercial</a>
@@ -5582,16 +5622,6 @@ Asignar tienda a comercial</a>
 <a href="#UC-0003" title="Asignar pago a venta">
                                 [UC-0003] 
 Asignar pago a venta</a>
-</li>
-<li>
-<a href="#UC-0002" title="Asignar venta a tienda">
-                                [UC-0002] 
-Asignar venta a tienda</a>
-</li>
-<li>
-<a href="#UC-0004" title="Asignar técnico a venta">
-                                [UC-0004] 
-Asignar técnico a venta</a>
 </li>
 </td>
 </tr>
@@ -5680,14 +5710,14 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#UC-0002" title="Asignar venta a tienda">
-                                [UC-0002] 
-Asignar venta a tienda</a>
-</li>
-<li>
 <a href="#UC-0001" title="Asignar tienda a comercial">
                                 [UC-0001] 
 Asignar tienda a comercial</a>
+</li>
+<li>
+<a href="#UC-0002" title="Asignar venta a tienda">
+                                [UC-0002] 
+Asignar venta a tienda</a>
 </li>
 <li>
 <a href="#UC-0004" title="Asignar técnico a venta">
@@ -5786,9 +5816,9 @@ Juan Polvillo Luque</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#UC-0001" title="Asignar tienda a comercial">
-                                [UC-0001] 
-Asignar tienda a comercial</a>
+<a href="#UC-0003" title="Asignar pago a venta">
+                                [UC-0003] 
+Asignar pago a venta</a>
 </li>
 <li>
 <a href="#UC-0002" title="Asignar venta a tienda">
@@ -5796,9 +5826,9 @@ Asignar tienda a comercial</a>
 Asignar venta a tienda</a>
 </li>
 <li>
-<a href="#UC-0003" title="Asignar pago a venta">
-                                [UC-0003] 
-Asignar pago a venta</a>
+<a href="#UC-0001" title="Asignar tienda a comercial">
+                                [UC-0001] 
+Asignar tienda a comercial</a>
 </li>
 <li>
 <a href="#UC-0004" title="Asignar técnico a venta">
