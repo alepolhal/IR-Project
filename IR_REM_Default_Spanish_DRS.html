@@ -200,15 +200,33 @@ Descripción de la interfaz de usuario del sistema</a>
 <a name="SEC-0052" />
 <h1 align="left">1 
 Introducción</h1><a name="PRG-0043" />
-<p>El siguiente documento de carácter <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a> contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</p>
+<p>El siguiente documento de carácter técnico contendrá principalmente los modelos del sistema software a desarrollar, especificados previsamente en los requisitos del sistema.</p>
 <a name="SEC-0053" />
 <h2 align="left">1.1 
 Alcance</h2><a name="PRG-0044" />
-<p>La implementación del siguiente sistema supondrá una reorganización de la empresa, pues los datos pasarán a estar informatizados y contenidos en una base de datos.</p>
+<p>La empresa con la que tratamos es una empresa distribuidora de máquinas digitales, éstas máquinas realizan diversos servicios. Servicios como recarga de móviles, apuestas deportivas, lotería nacional, etc.
+<br />
+<br />Aunque se trate de una empresa que vende un producto relativamente actualizado, se trata de una empresa de antigua, que antes trataba la comercialización de teléfonos móviles. 
+<br />
+<br />Cómo decíamos antes, se trata de una empresa antigua, lo que conlleva que generalmente, por herencia o por impedimento al cambio, la empresa se gestiones con medios antiguos, o no digitales. La empresa hace uso de varios recursos humanos, para los que es necesario una buena <a href="#GLO-0067" title="Conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.">gestión</a> de estos recursos, con el fin de maximizar la relación trabajo/coste, evitando así la pérdida de capital a consecuencia de la mala <a href="#GLO-0067" title="Conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.">gestión</a> de recurso humano. 
+<br />
+<br />Como empresa antigua, no tiene ninguno de estos mecanismos de <a href="#GLO-0067" title="Conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.">gestión</a> de los recursos, lo que le ha llevado en más de una ocasión a ocasionar pérdidas o a no obtener el máximo beneficio.</p>
 <a name="SEC-0054" />
 <h2 align="left">1.2 
 Objetivos</h2><a name="PRG-0045" />
-<p>Una vez desarrollado el sistema, el <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> contará con una interfaz Web donde podrá interactuar con el sistema de manera sencilla. La interfaz implementará los objetivos especificados en el Documento de Requisitos del Sistema.</p>
+<p>El proyecto pretende solventar las necesidades de nuestro cliente, trabajador por cuenta ajena, cuya finalidad es conectar con futuros clientes para ofrecerles una serie de productos. El proyecto englobará en un <a href="#GLO-0024" title="Sistema que se desarrollará para el cliente y permitirá almacenar y procesar información.">sistema informático</a> todo el proceso de venta, <a href="#GLO-0067" title="Conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.">gestión</a> y comunicación con los distintos actores participantes en el sistema.
+<br />
+<br />El proyecto se centrará en la creación de un <a href="#GLO-0024" title="Sistema que se desarrollará para el cliente y permitirá almacenar y procesar información.">sistema informático</a>. El conjunto de los objetivos definidos marcarán la construcción de un sistema completo.
+<br />
+<br />Con ello obtendremos una serie de beneficios, como son:
+<br />
+<br />- Una mejor organización entre los actores del sistema, unificándolos todos ellos en un solo sistema.
+<br />
+<br />- Reducir costes a través de la creación de rutas efectivas.
+<br />
+<br />- Crear asociaciones entre los distintos actores del sistema, mejorando la comunicación entre ellos.
+<br />
+<br />- Aumentar la satisfacción del cliente mediante la creación de un sistema que permita gestionar cómodamente la <a href="#GLO-0028" title="Compromiso del comercial para solucionar gratuitamente los problemas del producto en un periodo de tiempo determinado.">garantía</a> e incidencias.</p>
 <a name="SEC-0055" />
 <h1 align="left">2 
 Arquitectura lógica del sistema</h1><a name="SEC-0056" />
@@ -240,19 +258,17 @@ Diagrama de clases</p>
 Descripción de las clases del sistema</h2><a name="PRG-0046" />
 <p>Persona: Es el tipo padre de los actores del sistema, en el se recogen cada uno de los campos que tienen en común los actores.</p>
 <a name="PRG-0047" />
-<p>
-<a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">Cliente</a>: Es una de las clases hijas del tipo Persona, este actor representa a un <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el actor <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">Cliente</a> es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</p>
+<p>Cliente: Es una de las clases hijas del tipo Persona, este <a href="#GLO-0064" title="Participante del sistema.">actor</a> representa a un cliente en nuestro sistema de información. Contiene una relación con el tipo Tienda, ya que el <a href="#GLO-0064" title="Participante del sistema.">actor</a> Cliente es poseedor o la persona de contacto para el tipo Tienda de nuestro sistema de información.</p>
 <a name="PRG-0048" />
 <p>Comercial: Es otro de las clases hijas del tipo Persona. En este caso el tipo Comercial representa a un trabajador de la empresa que realiza el papel de visitar tiendas e intentar conseguir alguna venta. En consecuencia a las funciones mencionadas anteriormente que realiza el papel de comercial, derivan las dos relaciones naturales fruto de su función: Tienda y Venta. Las tiendas corresponden a las tiendas asignada a visitar o ya visitadas, y el tipo Venta a las ventas realizadas por el comercial en esa tienda.</p>
 <a name="PRG-0049" />
-<p>
-<a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">Técnico</a>: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">Técnico</a>, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> se asocia a la instalación de máquinas definidas en una venta.</p>
+<p>Técnico: Última clase hija del tipo Persona. En este caso el tipo también representa a un empleado de la empresa, pero en este caso desempeñando el papel de Técnico, que consiste en realizar instalaciones de máquinas. Debido de nuevo a la función que desempeña se establece la relación con el tipo Venta, pues un cliente se asocia a la instalación de máquinas definidas en una venta.</p>
 <a name="PRG-0050" />
-<p>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">Cliente</a>, Comercial y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</p>
+<p>Tienda: Es el tipo que representa el concepto de tienda dentro del sistema de información. De el salen 3 relaciones: Cliente, Comercial y Venta. La primera define el dueño o persona de contacto de la tienda. La segunda define los comerciales que están asociados a esa tienda para visitar o sido visitada. La última es la relación con Venta que establece las ventas de máquinas que se han efectuado sobre esa tienda.</p>
 <a name="PRG-0051" />
-<p>Venta: Es el eje <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">Técnico</a>, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con Incidencia, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con Comercial, aquí se indica qué comercial a obtenido esa misma venta.</p>
+<p>Venta: Es el eje <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a> del sistema de información, y la razón de ser del negocio, las ventas. De ella emanan relaciones con casi todos los tipos del sistema. La primera relación se establece con Técnico, en esta relación se establecen qué técnicos están asignados a qué tienda. La segunda relación es con pago que establece las relaciones financieras de esa venta. La tercera es con Linea Venta, esta relación representa una especificación de máquina y cantidad dentro de la misma venta. La cuarta relación es con <a href="#GLO-0065" title="Problema o falla relacionado con algunos de los productos.">Incidencia</a>, en esta relación se establecen los problemas de máquinas con una venta. La quinta es con Tienda que especifíca a qué tienda pertenece esa misma venta. Y la sexta, y última es con Comercial, aquí se indica qué comercial a obtenido esa misma venta.</p>
 <a name="PRG-0052" />
-<p>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el <a href="#GLO-0020" title="Personal de la tienda el cuál recibirá el producto por el comercial.">cliente</a> a abonado la cantidad monetaria de la venta.</p>
+<p>Pago: Tipo que representa las transacciones financieras realizadas para el pago de las máquinas implicadas en la venta. Por su función dentro del sistema de información, la relación natural que emana de este tipo es la relación con venta, que establece que el cliente a abonado la cantidad monetaria de la venta.</p>
 <a name="SEC-0061" />
 <h2 align="left">3.3 
 Diagramas de estado de las clases del sistema</h2><a name="PRG-0054" />
@@ -294,10 +310,10 @@ Descripción de la interfaz de usuario del sistema</h2><a name="PRG-0034" />
 <a name="PRG-0039" />
 <p>Nueva venta: Se mostrará un formulario con información a rellenar sobre la venta. En ella se especificará la fecha de venta, la persona de contacto y su teléfono de contacto. Además se mostrará otro campo de selección donde se indicará la máquina asociada con la venta.</p>
 <a name="PRG-0040" />
-<p>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a>, dependiendo de la acción que quiera realizar la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a>.</p>
+<p>Listado de ventas: Se mostrará una tabla con las ventas realizadas. A la derecha de cada elemento se mostrará un botón para asignarle un nuevo pago o técnico, dependiendo de la acción que quiera realizar la <a href="#GLO-0022" title="Local o edificio que dispondrá de las máquinas y su correspondiente fabricación y que, posteriormente, será entregada al cliente.">central</a>.</p>
 <a name="PRG-0041" />
 <p>Nuevo pago: Se mostrará un formulario con información a rellenar sobre el pago. En ella se especificará la fecha límite del pago y la cantidad a abonar.</p>
 <a name="PRG-0042" />
-<p>Seleccionar <a href="#GLO-0021" title="Personal que se encargará de las instalaciones de las máquinas en las tiendas.">técnico</a>: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</p>
+<p>Seleccionar técnico: Se mostrará una tabla con las distintos técnicos disponibles e información relacionada con ellos. A la derecha de cada elemento se mostrará un elemento de selección para asignarles la venta especificada con anterioridad.</p>
 </body>
 </html>
